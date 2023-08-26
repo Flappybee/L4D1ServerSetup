@@ -1,0 +1,18 @@
+原链接：https://forums.alliedmods.net/showthread.php?p=2618414
+
+
+// Show map list to begin vote for changelevel / set mark etc.
+!maps
+
+// Force change level to the next map (for Root admin)
+!mapnext
+!next
+
+// Refresh the list of maps
+!maps_reload
+
+// Allow admin to veto current vote
+!veto
+
+// Allow admin to bypass current vote
+!votepass 

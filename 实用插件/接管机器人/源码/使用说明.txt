@@ -1,0 +1,20 @@
+Usage
+
+Players may use sm_pickbot (!pickbot) to make a menu appear and show available bots and their health, and offer an option to takeover one of the bot.
+
+Alternatively, idle players may press the right mouse button to change the bot they are idling.
+
+Finally, players may use sm_nextbot (!nextbot) and sm_prevbot (!prevbot) to quickly go through the available bots.
+
+Installation
+
+l4d_survivor_bot_select.smx -> \addons\sourcemod\plugins\
+l4d_survivor_bot_select.txt -> \addons\sourcemod\gamedata\
+
+Cvars
+
+- l4d_sbs_version : Version number
+- l4d_sbs_pick: Enable use of commands to pick a bot? 1: Enable, 0: Disable, Default 1
+- l4d_sbs_idle: Allow survivors to change idle bot with right mouse button? 1: Enable, 0: Disable, Default 1
+- l4d_sbs_time: Time in seconds that survivors have to change bots once they spawn. -1: Infinite time. Default -1.
+- l4d_sbs_dead: Always allow dead survivors to change bots? 1: Enable, 0: Disable, Default 1.

@@ -1,0 +1,47 @@
+教程来源于网络
+
+链接1：https://www.bilibili.com/read/cv16824745
+链接2：https://www.bilibili.com/read/cv20323664
+
+
+1.如果运行命令 steamcmd.sh之后，提示no such file or directory. 有可能是依赖没有安装好，可以安装所需的依赖来解决，例如使用的ubuntu系统，则需要运行以下几条指令
+apt-get -y update
+apt-get -y install lib32gcc1
+apt-get -y install lib32stdc++6
+apt-get -y install libcurl4-gnutls-dev:i386
+
+2.server.cfg中如果想允许玩家死亡后电脑可以过关，一代和二代的处理不一样
+一代需要设置：sm_cvar sb_all_bot_team 1
+二代需要设置：sm_cvar sb_all_bot_game 1 和 sm_cvar allow_all_bot_survivor_team 1
+
+3.如果不想让服务器无人时自动休眠，请使用以下命令
+sm_cvar sv_hibernate_when_empty 0 //服务器没有人的时候不允许关闭
+
+
+4.metamod.vdf内容需要手动修改(在addons下)
+
+默认为:
+"Plugin"
+{
+	"file"	"/addons/metamod/bin/server"
+}
+需修改为:
+"Plugin"
+{
+	"file"	"../left4dead/addons/metamod/bin/server"
+}
+
+5.sourcemod.vdf内容需要手动修改(在metamod下)
+默认为:
+"Metamod Plugin"
+{
+	"alias"		"sourcemod"
+	"file"		"/addons/sourcemod/bin/sourcemod_mm"
+}
+
+需修改为:
+"Metamod Plugin"
+{
+	"alias"		"sourcemod"
+	"file"		"../left4dead/addons/sourcemod/bin/sourcemod_mm"
+}
