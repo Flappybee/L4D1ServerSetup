@@ -77,7 +77,7 @@ public void Event_PlayerSpawn(Handle event, const char[] name, bool dontBroadcas
 			SteamIDs.SetValue(SteamID, 2, true);
 			Handle datapack = CreateDataPack(); WritePackString(datapack,SteamID); WritePackCell(datapack,userid);
 			CreateTimer(Cvar_TimeBot.FloatValue, Timer_RecordSteamID, datapack, TIMER_FLAG_NO_MAPCHANGE);		
-			if (Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[SBS]\x01 You have %d seconds to takeover another bot using !pickbot", Cvar_TimeBot.IntValue);
+			if (Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[SBS]\x01 你有 %d 秒时间再聊天框输入!pickbot接管一个电脑", Cvar_TimeBot.IntValue);
 		}
 	}
 }
@@ -114,7 +114,7 @@ public Action Timer_RecordSteamID(Handle hTimer, Handle datapack)
 	SteamIDs.SetValue(SteamID, 0, true);
 	
 	int client = GetClientOfUserId(ReadPackCell(datapack));	
-	if (client && Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[SBS]\x01 You may no longer takeover a bot.", Cvar_TimeBot.FloatValue);
+	if (client && Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[SBS]\x01 你不再能接管电脑.", Cvar_TimeBot.FloatValue);
 }
 
 bool VerifyCommand(int client)
@@ -161,7 +161,7 @@ public Action Event_PlayerDeath(Handle event, const char[] name, bool dontBroadc
 	int AvailableBots = CountAvailableSurvivorBots();
 	if (AvailableBots == 0) return;
 	
-	PrintToChat(client, "\x04[SBS]\x01 You may takeover another bot by using the !pickbot command");
+	PrintToChat(client, "\x04[SBS]\x01 你可以在聊天框输入!pickbot接管一个电脑");
 }
 
 // *********************************************************************************
@@ -303,7 +303,7 @@ public int MenuHandler1(Menu menu, MenuAction action, int param1, int param2)
 			int PickedBot = StringToInt(number);
 
 			if (!VerifyCommand(client)) return;
-			if (!PickedBot || !IsSurvivorBotValid(PickedBot) || GetIdlePlayer(PickedBot)) { PrintToChat(client, "[SBS] This survivor bot is no longer available.");  return;}
+			if (!PickedBot || !IsSurvivorBotValid(PickedBot) || GetIdlePlayer(PickedBot)) { PrintToChat(client, "[SBS] 此机器人已不可再被接管.");  return;}
 
 			ChangeClientTeam(client, TEAM_SPECTATOR);
 			SetHumanIdle(PickedBot, client);
