@@ -128,7 +128,7 @@ public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
 		//print to all
 		else if(bandw_notice == 2) 
 		{
-			if(bandw_type == 1) PrintHintTextToAll("%s (\x04%s\x01) is black and white.", targetName, charName);
+			if(bandw_type == 1) PrintHintTextToAll("%s (\x04%s\x01) 现在是黑白状态.", targetName, charName);
 			else PrintToChatAll("%s (\x04%s\x01) 现在是黑白状态.", targetName, charName);
 		}
 		//print to infected
@@ -138,7 +138,7 @@ public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
 			{
 				if(!IsClientInGame(x) || GetClientTeam(x) == GetClientTeam(target) || x == target || IsFakeClient(x))
 					continue;
-				if(bandw_type == 1) PrintHintText(x, "%s (\x04%s\x01) is black and white.", targetName, charName);
+				if(bandw_type == 1) PrintHintText(x, "%s (\x04%s\x01) 现在是黑白状态.", targetName, charName);
 				else PrintToChat(x, "%s (\x04%s\x01) 现在是黑白状态.", targetName, charName);
 			}
 		}
@@ -150,7 +150,7 @@ public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
 				if(!IsClientInGame(x) || GetClientTeam(x) != GetClientTeam(target) || x == target || IsFakeClient(x)) 
 					continue;
 					
-				if(bandw_type == 1) PrintHintText(x, "%s (\x04%s\x01) is black and white.", targetName, charName);
+				if(bandw_type == 1) PrintHintText(x, "%s (\x04%s\x01) 现在是黑白状态.", targetName, charName);
 				else PrintToChat(x, "%s (\x04%s\x01) 现在是黑白状态.", targetName, charName);
 			}
 		}	

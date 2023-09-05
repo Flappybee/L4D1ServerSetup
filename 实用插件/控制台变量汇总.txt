@@ -1,0 +1,106 @@
+1. 倒地自救
+倒地自救:             "l4d_selfhelp_incap", "3", "self help for incap , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
+被舌头抓住时自救:      "l4d_selfhelp_grab", "3", " self help for grab , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
+被蒙牛捶打时自救:      "l4d_selfhelp_pounce", "3", " self help for pounce , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
+被猎人骑乘时自救:      "l4d_selfhelp_ride", "3", " self help for ride , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
+被坦克捶打时自救:      "l4d_selfhelp_pummel", "3", "self help for pummel , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
+挂边时自救:           "l4d_selfhelp_edgegrab", "3", "self help for edgegrab , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
+倒地时救助别人:        "l4d_selfhelp_eachother", "1", "incap help each other , 0: 禁用, 1 :启用 "
+倒地时拿取药品:        "l4d_selfhelp_pickup", "1", "incap pick up , 0: 禁用, 1 :启用 "
+自救时杀死特感:        "l4d_selfhelp_kill", "1", "kill attacker"
+自救提示延迟:          "l4d_selfhelp_hintdelay", "3.0", "hint delay"
+自救延迟:             "l4d_selfhelp_delay", "1.0", "self help delay"
+自救需要时间:          "l4d_selfhelp_durtaion", "3.0", "self help duration"
+对抗模式启用:          "l4d_selfhelp_versus", "1", "0: 对抗模式禁用, 1: 对抗模式启用"
+
+
+
+2. 数据统计
+csr_version                                        显示版本
+csr_headshot_accuracy_compare                      爆头率是与自己的击杀 / 团队的总击杀相比.
+csr_ignore_bots_kills                              爆头率中忽略机器人的击杀
+csr_only_human_player                              只打印非机器人的数据
+csr_print_mode                                     打印数据到聊天框或控制台
+csr_stats_on_failed                                过关失败时也打印数据
+csr_reset_stats                                    统计数据更新时机 (每个章节或每个战役).
+
+
+3. 提示玩家黑白
+l4d_bandw_notice                                 - 0 关闭通知，1 通知幸存者，2 通知所有人，3 通知感染。 默认值为 1。
+l4d_bandw_type                                   - 0 打印聊天，1 显示提示框。 默认值为 1。
+l4d_bandw_glow                                   - 0 打开发光，1 打开发光。 默认为 OFF。
+
+
+
+4. 闲置/自杀命令
+// 启用或禁用加入特感队伍
+l4d_nth_joininfected "1"
+// 启用或禁用加入幸存者队伍
+l4d_nth_joinsurvivors "1"
+// 自杀指令权限  0 = 禁用, 1 = 所有人可用, 2 = 仅幸存者可用, 3 = 仅特感可用
+l4d_nth_kill "1"
+// 启用或禁用观察者模式
+l4d_nth_spectate "1"
+// 新玩家加入时是否有提示消息
+l4d_nth_message "1"
+// 提示消息多久重复一次
+l4d_nth_timerrepeat "30" 
+
+
+
+
+5. 显示触发警报车的信息
+l4d_who_fired_car_alarm_version                      - 插件版本号.
+l4d_who_fired_car_alarm_enable                       - 启用或禁用插件.
+
+
+
+6. 物品发光
+// 启用/禁用此插件.
+// 0 = 禁用, 1 = 启用.
+// -
+// Default: "1"
+// Minimum: "0.000000"
+// Maximum: "1.000000"
+l4d1_glow_item_enable "1"
+
+// 当急救箱子被打开后移除急救包的发光.
+// 0 = 禁用, 1 = 启用.
+// -
+// Default: "1"
+// Minimum: "0.000000"
+// Maximum: "1.000000"
+l4d1_glow_item_health_cabinet "1"
+
+// 切换（启动/停止）发光的间隔（秒）.
+// -
+// Default: "0.3"
+// Minimum: "0.100000"
+l4d1_glow_item_interval "0.3"
+
+// 物品数量为 0 时停止发光.
+// 0 = 关闭, 1 = 开启.
+// -
+// Default: "1"
+// Minimum: "0.000000"
+// Maximum: "1.000000"
+l4d1_glow_item_remove_spawner "1" 
+
+
+
+
+7. 显示伤害来源
+l4d_broadcast_kill                        - 0: 关闭击杀与爆头提示。 1: 打开击杀与爆头提示。 2: 仅提示爆头
+l4d_broadcast_ff                          - 0: 关闭队友伤害提示。 1: 仅发送消息给攻击者。 2: 将信息发送给攻击者并发送所有人聊天。 3: 发送给所有人聊天
+l4d_broadcast_hit                         - 1: 承受队友伤害的人将会在聊天框接受消息。 
+l4d_broadcast_con                         - 0: 控制台信息打印关闭。 1: 控制台信息打印开启
+
+
+
+8. 显示坦克血量
+// 启用插件 (1 - 启用, 0 - 禁用)
+l4d_showtankhp_enable "1"
+// 显示血线组件 (1 - label 'HP', 2 - Bar, 4 - Current HP, 8 - Max HP, 16 - 坦克名字. 可以自由组合数字相加)
+l4d_showtankhp_components "31"
+// 显示坦克击杀信息? (1 - 是, 0 - 否)
+l4d_showtankhp_kill_msg "1" 

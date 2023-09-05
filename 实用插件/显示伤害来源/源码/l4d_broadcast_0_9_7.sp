@@ -59,12 +59,12 @@ printkillinfo(attacker, bool:headshot)
 		
 		if(murder>1)
 		{
-			PrintCenterText(attacker, "HEADSHOT! +%d", murder);
+			PrintCenterText(attacker, "爆头! +%d", murder);
 			KillTimer(kill_timers[attacker][0]);
 		}
 		else
 		{
-			PrintCenterText(attacker, "HEADSHOT!");
+			PrintCenterText(attacker, "爆头!");
 		}
 		
 		kill_timers[attacker][0] = CreateTimer(5.0, KillCountTimer, (attacker*10));
@@ -76,12 +76,12 @@ printkillinfo(attacker, bool:headshot)
 		
 		if(murder>=1)
 		{
-			PrintCenterText(attacker, "KILL! +%d", murder);
+			PrintCenterText(attacker, "击杀! +%d", murder);
 			KillTimer(kill_timers[attacker][1]);
 		}
 		else
 		{
-			PrintCenterText(attacker, "KILL!");
+			PrintCenterText(attacker, "击杀!");
 		}
 		
 		kill_timers[attacker][1] = CreateTimer(5.0, KillCountTimer, ((attacker*10)+1));
@@ -123,31 +123,31 @@ public Action:Event_Player_Hurt(Handle:event, const String:name[], bool:dontBroa
 	{
 		case 1:
 		{
-			hit="'s head";
+			hit="的头部";
 		}
 		case 2:
 		{
-			hit="'s chest";
+			hit="的胸部";
 		}
 		case 3:
 		{
-			hit="'s stomach";
+			hit="的腹部";
 		}
 		case 4:
 		{
-			hit="'s left arm";
+			hit="的左胳膊";
 		}
 		case 5:
 		{
-			hit="'s right arm";
+			hit="的右胳膊";
 		}
 		case 6:
 		{
-			hit="'s left leg";
+			hit="的左腿";
 		}
 		case 7:
 		{
-			hit="'s right leg";
+			hit="的右腿";
 		}
 		default:
 		{}
@@ -159,7 +159,7 @@ public Action:Event_Player_Hurt(Handle:event, const String:name[], bool:dontBroa
 	
 	if ((ff_attack == 1 || ff_attack == 2) && (id != client))
 	{
-		PrintHintText(attacker, "You hit %N.", client);
+		PrintHintText(attacker, "你攻击了 %N.", client);
 	}
 	
 	if (ff_attack == 2 || ff_attack == 3)
@@ -178,7 +178,7 @@ public Action:Event_Player_Hurt(Handle:event, const String:name[], bool:dontBroa
 	}
 	else if (ff_con == 1)
 	{
-		PrintToConsole(client, "%N hit you%s.", attacker, hit);
+		PrintToConsole(client, "%N 攻击了你%s.", attacker, hit);
 	}
 	
 	return Plugin_Continue;

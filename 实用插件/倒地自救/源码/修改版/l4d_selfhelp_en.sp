@@ -722,7 +722,7 @@ SelfHelp(client)
 			HelpState[client]=STATE_OK;
 			
 			if(adrenaline)	PrintToChatAll("\x04%N\x03 使用了肾上腺素进行了自救!", client);  
-			if(pills)	PrintToChatAll("\x04%N\x03 使用了药丸就行了自救!", client); 	
+			if(pills)	PrintToChatAll("\x04%N\x03 使用了药丸进行了自救!", client); 	
 			//EmitSoundToClient(client, "player/items/pain_pills/pills_use_1.wav"); // add some sound
 
 		}
