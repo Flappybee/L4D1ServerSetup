@@ -31,7 +31,7 @@ public OnPluginStart()
 	CreateConVar("l4d_nth_version", PLUGIN_VERSION, "Plugin Version", CVAR_FLAGS|FCVAR_DONTRECORD);
 
 	TimerMessage 		= 	CreateConVar("l4d_nth_message", 		"1", 		"Enables a hint message when a player connects", 				CVAR_FLAGS, true, 0.0, true, 1.0);
-	TimerRepeatMessage 	= 	CreateConVar("l4d_nth_timerrepeat",		"120", 		"Sets the timer to repeat the hint message", 					CVAR_FLAGS, true, 30.0, true, 600.0);	
+	TimerRepeatMessage 	= 	CreateConVar("l4d_nth_timerrepeat",		"500", 		"Sets the timer to repeat the hint message", 					CVAR_FLAGS, true, 30.0, true, 600.0);	
 	CommandKill 		=	CreateConVar("l4d_nth_kill",			"1", 		"0 = Disable, 1 = All, 2 = Survivor only, 3 = infected only", 	CVAR_FLAGS, true, 0.0, true, 3.0);
 	CommandSurvivors	=	CreateConVar("l4d_nth_joinsurvivors",	"1", 		"Enables or disables joining the survivor team", 				CVAR_FLAGS, true, 0.0, true, 1.0);
 	CommandInfected		=	CreateConVar("l4d_nth_joininfected",	"1", 		"Enables or disables joining the infected team", 				CVAR_FLAGS, true, 0.0, true, 1.0);
@@ -47,6 +47,7 @@ public OnPluginStart()
 	RegConsoleCmd("sm_infected", JoinTeam3);
 	
 	AutoExecConfig(true, "l4d_nth");
+	CreateTimer(GetConVarFloat(TimerRepeatMessage), WelcomePlayer, 10, TIMER_REPEAT);
 }
 
 /*======================== PLAYER COMMANDS =========================*/
@@ -121,16 +122,21 @@ public OnClientPutInServer(client)
 {
 	if(GetConVarInt(TimerMessage))
 	{
-		CreateTimer(GetConVarFloat(TimerRepeatMessage), WelcomePlayer, client, TIMER_REPEAT);
+	welcomePlayerConnection(client);
 	}
 }
 
 public Action:WelcomePlayer(Handle:timer, any:client)
 {
+	PrintHintTextToAll("%t", "ShowHintMessage");
+	PrintToChatAll("[提示] %t", "ShowHintMessage");
+	return Plugin_Continue;
+}
+
+public welcomePlayerConnection(client)
+{
 	if(IsClientInGame(client)) 
 	{
-		PrintHintText(client, "%t", "ShowHintMessage");
-		return Plugin_Continue;
+		PrintToChat(client, "[提示]%t", "ShowHintMessage")
 	}
-	return Plugin_Stop;
 }

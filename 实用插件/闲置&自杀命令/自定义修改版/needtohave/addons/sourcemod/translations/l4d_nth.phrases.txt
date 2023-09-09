@@ -8,7 +8,7 @@
 {
 	"ShowHintMessage"
 	{
-		"en"		"聊天框输入!afk闲置!join加入!kill自杀"
+		"en"		"聊天框输入!afk闲置,!join加入,!kill自杀!nextbot换人,!maps换图"
 	}
 	"MessageInfected"
 	{

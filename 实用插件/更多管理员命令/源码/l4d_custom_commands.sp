@@ -201,7 +201,7 @@ public OnMapEnd()
 
 public Action:CmdCCRefresh(client, args)
 {
-	PrintToChat(client, "[SM] Refreshing the admin menu...");
+	PrintToChat(client, "[SM] 正在刷新管理员菜单...");
 	g_hTopMenu = GetAdminTopMenu();
 	new TopMenuObject:players_commands = FindTopMenuCategory(g_hTopMenu, ADMINMENU_PLAYERCOMMANDS);
 	new TopMenuObject:server_commands = FindTopMenuCategory(g_hTopMenu, ADMINMENU_SERVERCOMMANDS);
@@ -226,7 +226,7 @@ public Action:CmdCCRefresh(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "[SM] Player commands category is invalid!");
+		PrintToChat(client, "[SM]玩家命令目录无效!");
 		return Plugin_Handled;
 	}
 	
@@ -241,10 +241,10 @@ public Action:CmdCCRefresh(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "[SM] Server commands category is invalid!");
+		PrintToChat(client, "[SM]服务器命令目录无效!");
 		return Plugin_Handled;
 	}
-	PrintToChat(client, "[SM] Successfully refreshed the admin menu");
+	PrintToChat(client, "[SM]管理员菜单刷新成功!");
 	return Plugin_Handled;
 }
 
@@ -268,7 +268,7 @@ public Action:CmdIncapPlayer(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_incapplayer <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_incapplayer <#userid|name>");
 		return Plugin_Handled;
 	}
 	decl String:arg[65];
@@ -303,7 +303,7 @@ public Action:CmdSpeedPlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_speedplayer <#userid|name> [value]");
+		PrintToChat(client, "[SM]用法: sm_speedplayer <#userid|name> [value]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[65], String:arg2[65], Float:speed;
@@ -340,7 +340,7 @@ public Action:CmdSetHpPlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_sethpplayer <#userid|name> [amount]");
+		PrintToChat(client, "[SM]用法: sm_sethpplayer <#userid|name> [amount]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[65], String:arg2[65];
@@ -377,7 +377,7 @@ public Action:CmdColorPlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_colorplayer <#userid|name> [R G B A]");
+		PrintToChat(client, "[SM]用法: sm_colorplayer <#userid|name> [R G B A]");
 	}
 	decl String:arg1[65], String:arg2[65];
 	GetCmdArg(1, arg1, sizeof(arg1));
@@ -412,12 +412,12 @@ public Action:CmdColorTarget(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_colortarget [R G B A]");
+		PrintToChat(client, "[SM]用法: sm_colortarget [R G B A]");
 	}
 	new target = GetClientAimTarget(client, false);
 	if(!IsValidEntity(target) || !IsValidEdict(target))
 	{
-		PrintToChat(client, "[SM] Invalid entity or looking to nothing");
+		PrintToChat(client, "[SM]无效的实体或没有选择任何物体");
 	}
 	decl String:arg[256];
 	GetCmdArg(1, arg, sizeof(arg));
@@ -433,12 +433,12 @@ public Action:CmdSizeTarget(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_sizetarget [scale]");
+		PrintToChat(client, "[SM]用法: sm_sizetarget [scale]");
 	}
 	new target = GetClientAimTarget(client, false);
 	if(!IsValidEntity(target) || !IsValidEdict(target))
 	{
-		PrintToChat(client, "[SM] Invalid entity or looking to nothing");
+		PrintToChat(client, "[SM]无效的实体或没有选择任何物体");
 	}
 	decl String:arg[256];
 	GetCmdArg(1, arg, sizeof(arg));
@@ -454,7 +454,7 @@ public Action:CmdSetExplosion(client, args)
 {
 	if(args < 1 || args > 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_setexplosion [position | cursor]");
+		PrintToChat(client, "[SM]用法: sm_setexplosion [position | cursor]");
 		return Plugin_Handled;
 	}
 	decl String:arg[65];
@@ -481,7 +481,7 @@ public Action:CmdSetExplosion(client, args)
 		}
 		else
 		{
-			PrintToChat(client, "Vector out of world geometry. Exploding on origin instead");
+			PrintToChat(client, "坐标超出世界范围. 将在原点爆炸");
 		}
 		CreateExplosion(VecOrigin);
 		decl String:name[256];
@@ -491,7 +491,7 @@ public Action:CmdSetExplosion(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "[SM] Specify the explosion position");
+		PrintToChat(client, "[SM]确定爆炸位置");
 		return Plugin_Handled;
 	}
 }
@@ -500,7 +500,7 @@ public Action:CmdSizePlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_sizeplayer <#userid|name> [value]");
+		PrintToChat(client, "[SM]用法: sm_sizeplayer <#userid|name> [value]");
 	}
 	decl String:arg1[65], String:arg2[65], Float:scale;
 	GetCmdArg(1, arg1, sizeof(arg1));
@@ -584,12 +584,12 @@ public Action:CmdNoRescue(client, args)
 		}
 		else
 		{
-			PrintToChat(client, "[SM] This map doesn't have a rescue vehicle or is not supported!");
+			PrintToChat(client, "[SM]本地图无救援车辆或不支持!");
 		}
 	}
 	else
 	{
-		PrintToChat(client, "[SM] Wait for the rescue vehicle to be ready first!");
+		PrintToChat(client, "[SM]救援即将到来做好准备!");
 	}
 	decl String:name[256];
 	GetClientName(client, name, sizeof(name));
@@ -601,7 +601,7 @@ public Action:CmdDontRush(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_dontrush <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_dontrush <#userid|name>");
 	}
 	decl String:arg[65];
 	GetCmdArg(1, arg, sizeof(arg));
@@ -635,7 +635,7 @@ public Action:CmdBugPlayer(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_bugplayer <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_bugplayer <#userid|name>");
 		return Plugin_Handled;
 	}
 	
@@ -668,7 +668,7 @@ public Action:CmdBugPlayer(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_destroyplayer <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_destroyplayer <#userid|name>");
 		return Plugin_Handled;
 	}
 	decl String:arg[65];
@@ -715,7 +715,7 @@ public Action:CmdAirstrike(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_airstrike <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_airstrike <#userid|name>");
 		return Plugin_Handled;
 	}
 	
@@ -751,7 +751,7 @@ public Action:CmdOldMovie(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_oldmovie <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_oldmovie <#userid|name>");
 		return Plugin_Handled;
 	}
 	decl String:arg[65];
@@ -783,7 +783,7 @@ public Action:CmdChangeHp(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_changehp <#userid|name> [perm | temp]");
+		PrintToChat(client, "[SM]用法: sm_changehp <#userid|name> [perm | temp]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[65], String:arg2[65];
@@ -800,7 +800,7 @@ public Action:CmdChangeHp(client, args)
 	}
 	if(type <= 0 || type > 2)
 	{
-		PrintToChat(client, "[SM] Specify the health style you want");
+		PrintToChat(client, "[SM]选择血量的模式");
 	}
 	decl String:target_name[MAX_TARGET_LENGTH];
 	decl target_list[MAXPLAYERS], target_count, bool:tn_is_ml;
@@ -861,7 +861,7 @@ public Action:CmdGnomeWipe(client, args)
 			count++;
 		}
 	}
-	PrintToChat(client, "[SM] Succesfully wiped %i gnomes", count);
+	PrintToChat(client, "[SM]成功清除了 %i 个侏儒", count);
 	count = 0;
 	decl String:name[256];
 	GetClientName(client, name, sizeof(name));
@@ -886,7 +886,7 @@ public Action:CmdGnomeWipe(client, args)
 			count++;
 		}
 	}
-	PrintToChat(client, "[SM] Succesfully wiped %i bodies", count);
+	PrintToChat(client, "[SM]成功清除了 %i 个躯体", count);
 	count = 0;
 }
 */
@@ -895,7 +895,7 @@ public Action:CmdGodMode(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_godmode <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_godmode <#userid|name>");
 		return Plugin_Handled;
 	}
 	decl String:arg[65];
@@ -930,7 +930,7 @@ public Action:CmdShakePlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_shake <#userid|name> [duration]");
+		PrintToChat(client, "[SM]用法: sm_shake <#userid|name> [duration]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[65], String:arg2[65];
@@ -967,7 +967,7 @@ public Action:CmdConsolePlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_cmdplayer <#userid|name> [command]");
+		PrintToChat(client, "[SM]用法: sm_cmdplayer <#userid|name> [command]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[65], String:arg2[65];
@@ -1003,7 +1003,7 @@ public Action:CmdWeaponRain(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_weaponrain [weapon type] [Example: !weaponrain adrenaline]");
+		PrintToChat(client, "[SM]用法: sm_weaponrain [weapon type] [Example: !weaponrain adrenaline]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[65];
@@ -1014,7 +1014,7 @@ public Action:CmdWeaponRain(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "[SM] Wrong weapon type");
+		PrintToChat(client, "[SM]错误的武器类型");
 	}
 	decl String:name[256];
 	GetClientName(client, name, sizeof(name));
@@ -1026,7 +1026,7 @@ public Action:CmdBleedPlayer(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_bleedplayer <#userid|name> [duration]");
+		PrintToChat(client, "[SM]用法: sm_bleedplayer <#userid|name> [duration]");
 		return Plugin_Handled;
 	}
 	
@@ -1084,7 +1084,7 @@ public Action:CmdCheat(client, args)
 		}
 		else
 		{
-			PrintToChat(client, "[SM] Usage: sm_cheat <command> <arguments>");
+			PrintToChat(client, "[SM]用法: sm_cheat <command> <arguments>");
 		}
 		return Plugin_Handled;
 	}
@@ -1127,7 +1127,7 @@ public Action:CmdWipeEntity(client, args)
 			}
 		}
 	}
-	PrintToChat(client, "[SM] Succesfully deleted %i <%s> entities", count, arg);
+	PrintToChat(client, "[SM]成功删除了 %i 个 <%s> 实体", count, arg);
 	count = 0;
 	decl String:name[256];
 	GetClientName(client, name, sizeof(name));
@@ -1139,8 +1139,8 @@ public Action:CmdSetModel(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_setmodel <#userid|name> [model]");
-		PrintToChat(client, "Example: !setmodel @me models/props_interiors/table_bedside.mdl ");
+		PrintToChat(client, "[SM]用法: sm_setmodel <#userid|name> [model]");
+		PrintToChat(client, "示例: !setmodel @me models/props_interiors/table_bedside.mdl ");
 		return Plugin_Handled;
 	}
 	decl String:arg1[256], String:arg2[256];
@@ -1176,8 +1176,8 @@ public Action:CmdSetModelEntity(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_setmodelentity <classname> [model]");
-		PrintToChat(client, "Example: !setmodelentity infected models/props_interiors/table_bedside.mdl");
+		PrintToChat(client, "[SM]用法: sm_setmodelentity <classname> [model]");
+		PrintToChat(client, "示例: !setmodelentity infected models/props_interiors/table_bedside.mdl");
 		return Plugin_Handled;
 	}
 	decl String:arg1[256], String:arg2[256], String:class[64];
@@ -1197,7 +1197,7 @@ public Action:CmdSetModelEntity(client, args)
 			}
 		}
 	}
-	PrintToChat(client, "[SM] Succesfully set the %s model to %i <%s> entities", arg2, count, arg1);
+	PrintToChat(client, "[SM]成功将 %s 模型设置为 %i 个 <%s> 实体", arg2, count, arg1);
 	count = 0;
 	decl String:name[256];
 	GetClientName(client, name, sizeof(name));
@@ -1209,8 +1209,8 @@ public Action:CmdCreateParticle(client, args)
 {
 	if(args < 4)
 	{
-		PrintToChat(client, "[SM] Usage: sm_createparticle <#userid|name> [particle] [parent: yes|no] [duration]");
-		PrintToChat(client, "Example: !createparticle @me no 5 (Teleports the particle to my position, but don't parent it and stop the effect in 5 seconds)");
+		PrintToChat(client, "[SM]用法: sm_createparticle <#userid|name> [particle] [parent: yes|no] [duration]");
+		PrintToChat(client, "示例: !createparticle @me no 5 (Teleports the particle to my position, but don't parent it and stop the effect in 5 seconds)");
 		return Plugin_Handled;
 	}
 	decl String:arg1[256], String:arg2[256], String:arg3[256], String:arg4[256];
@@ -1245,7 +1245,7 @@ public Action:CmdCreateParticle(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "[SM] No parent option given. As default it won't be parented");
+		PrintToChat(client, "[SM]没有给出父选项。默认情况下，它不会成为父对象");
 	}
 	new Float:duration = StringToFloat(arg4);
 	for (new i = 0; i < target_count; i++)
@@ -1262,7 +1262,7 @@ public Action:CmdIgnite(client, args)
 {
 	if(args < 2)
 	{
-		PrintToChat(client, "[SM] Usage: sm_ignite <#userid|name> [duration]");
+		PrintToChat(client, "[SM]用法: sm_ignite <#userid|name> [duration]");
 		return Plugin_Handled;
 	}
 	decl String:arg1[256], String:arg2[256];
@@ -1298,7 +1298,7 @@ public Action:CmdTeleport(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_teleport <#userid|name>");
+		PrintToChat(client, "[SM]用法: sm_teleport <#userid|name>");
 		return Plugin_Handled;
 	}
 	decl String:arg[256];
@@ -1328,7 +1328,7 @@ public Action:CmdTeleport(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "Vector out of world geometry. Teleporting on origin instead");
+		PrintToChat(client, "坐标超出世界范围. 将传送到原点");
 	}
 	for (new i=0; i < target_count; i++)
 	{
@@ -1344,7 +1344,7 @@ public Action:CmdTeleportEnt(client, args)
 {
 	if(args < 1)
 	{
-		PrintToChat(client, "[SM] Usage: sm_teleportent <classname>");
+		PrintToChat(client, "[SM]用法: sm_teleportent <classname>");
 		return Plugin_Handled;
 	}
 	decl String:arg1[256], String:class[128];
@@ -1360,7 +1360,7 @@ public Action:CmdTeleportEnt(client, args)
 	}
 	else
 	{
-		PrintToChat(client, "Vector out of world geometry. Teleporting on origin instead");
+		PrintToChat(client, "坐标超出世界范围. 将传送到原点");
 	}
 	for(new i=1; i<=MaxClients; i++)
 	{
@@ -1374,7 +1374,7 @@ public Action:CmdTeleportEnt(client, args)
 			}
 		}
 	}
-	PrintToChat(client, "[SM] Successfully teleported '%i' entities with <%s> classname", count, arg1);
+	PrintToChat(client, "[SM]成功传送了 '%i' 个名称为 <%s> 的实体", count, arg1);
 	decl String:name[256];
 	GetClientName(client, name, sizeof(name));
 	LogCommand("'%s' used the 'Teleport Entity' command on '%i' entities with classname <%s>", name, count, arg1);
@@ -1423,7 +1423,7 @@ public MenuItem_TeleportPlayer(Handle:topmenu, TopMenuAction:action, TopMenuObje
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Teleport Player", "", param);
+		Format(buffer, maxlength, "传送幸存者", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1435,7 +1435,7 @@ public MenuItem_GodMode(Handle:topmenu, TopMenuAction:action, TopMenuObject:obje
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "God Mode", "", param);
+		Format(buffer, maxlength, "无敌模式", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1447,7 +1447,7 @@ public MenuItem_IncapPlayer(Handle:topmenu, TopMenuAction:action, TopMenuObject:
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Incapacitate Player", "", param);
+		Format(buffer, maxlength, "玩家倒地", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1459,7 +1459,7 @@ public MenuItem_SpeedPlayer(Handle:topmenu, TopMenuAction:action, TopMenuObject:
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Set player speed", "", param);
+		Format(buffer, maxlength, "设置玩家速度", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1471,7 +1471,7 @@ public MenuItem_SetHpPlayer(Handle:topmenu, TopMenuAction:action, TopMenuObject:
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Set player health", "", param);
+		Format(buffer, maxlength, "设置玩家血量", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1483,7 +1483,7 @@ public MenuItem_ColorPlayer(Handle:topmenu, TopMenuAction:action, TopMenuObject:
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Set player color", "", param);
+		Format(buffer, maxlength, "设置玩家颜色", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1495,7 +1495,7 @@ public MenuItem_CreateExplosion(Handle:topmenu, TopMenuAction:action, TopMenuObj
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Create explosion", "", param);
+		Format(buffer, maxlength, "制造爆炸", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1507,7 +1507,7 @@ public MenuItem_ScalePlayer(Handle:topmenu, TopMenuAction:action, TopMenuObject:
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Set player scale", "", param);
+		Format(buffer, maxlength, "放缩玩家比例", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1519,7 +1519,7 @@ public MenuItem_ShakePlayer(Handle:topmenu, TopMenuAction:action, TopMenuObject:
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Shake player", "", param);
+		Format(buffer, maxlength, "晃动玩家", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1531,7 +1531,7 @@ public MenuItem_NoRescue(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Force Vehicle Leaving", "", param);
+		Format(buffer, maxlength, "强制救援到来", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1585,12 +1585,12 @@ public MenuItem_NoRescue(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 			}
 			else
 			{
-				PrintToChat(param, "[SM] This map doesn't have a rescue vehicle or is not supported!");
+				PrintToChat(param, "[SM] 本地图无救援车辆或不支持!");
 			}
 		}
 		else
 		{
-			PrintToChat(param, "[SM] Wait for the rescue vehicle to be ready first!");
+			PrintToChat(param, "[SM] 救援即将到来做好准备!");
 		}
 		decl String:name[256];
 		GetClientName(param, name, sizeof(name));
@@ -1602,7 +1602,7 @@ public MenuItem_DontRush(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Anti Rush Player", "", param);
+		Format(buffer, maxlength, "禁止跑图", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1614,7 +1614,7 @@ public MenuItem_Airstrike(Handle:topmenu, TopMenuAction:action, TopMenuObject:ob
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Send Airstrike", "", param);
+		Format(buffer, maxlength, "空袭来临", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1626,12 +1626,12 @@ public MenuItem_GnomeRain(Handle:topmenu, TopMenuAction:action, TopMenuObject:ob
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Gnome Rain", "", param);
+		Format(buffer, maxlength, "侏儒雨", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
 		StartGnomeRain(param);
-		PrintHintTextToAll("It's raining gnomes!");
+		PrintHintTextToAll("正在下侏儒雨!");
 	}
 }
 
@@ -1639,12 +1639,12 @@ public MenuItem_SurvRain(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "L4D1 Survivor Rain", "", param);
+		Format(buffer, maxlength, "L4D1幸存者雨", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
 		StartL4dRain(param);
-		PrintHintTextToAll("It's raining... survivors?!");
+		PrintHintTextToAll("正在下..幸存者雨?!");
 	}
 }
 
@@ -1652,7 +1652,7 @@ public MenuItem_GnomeWipe(Handle:topmenu, TopMenuAction:action, TopMenuObject:ob
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Wipe gnomes", "", param);
+		Format(buffer, maxlength, "清楚侏儒", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1671,7 +1671,7 @@ public MenuItem_GnomeWipe(Handle:topmenu, TopMenuAction:action, TopMenuObject:ob
 				count++;
 			}
 		}
-		PrintToChat(param, "[SM] Succesfully wiped %i gnomes", count);
+		PrintToChat(param, "[SM]成功清除了 %i 个侏儒", count);
 		count = 0;
 		decl String:name[256];
 		GetClientName(param, name, sizeof(name));
@@ -1683,7 +1683,7 @@ public MenuItem_ChangeHp(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Switch Health Style", "", param);
+		Format(buffer, maxlength, "转变血量虚实", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1695,7 +1695,7 @@ public MenuItem_ChangeHp(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Wipe bodies", "", param);
+		Format(buffer, maxlength, "清除幸存者躯体", "", param);
 	}
 	if(action == TopMenuAction_SelectOption)
 	{
@@ -1714,7 +1714,7 @@ public MenuItem_ChangeHp(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 				count++;
 			}
 		}
-		PrintToChat(param, "[SM] Succesfully wiped %i bodies", count);
+		PrintToChat(param, "[SM] 成功清除了 %i 个躯体", count);
 		count = 0;
 	}
 }
@@ -1723,7 +1723,7 @@ public MenuItem_ChangeHp(Handle:topmenu, TopMenuAction:action, TopMenuObject:obj
 DisplayTeleportPlayerMenu(client)
 {
 	new Handle:menu2 = CreateMenu(MenuHandler_TeleportPlayer);
-	SetMenuTitle(menu2, "Select Player:");
+	SetMenuTitle(menu2, "选择幸存者:");
 	SetMenuExitBackButton(menu2, true);
 	AddTargetsToMenu2(menu2, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu2, client, MENU_TIME_FOREVER);
@@ -1732,7 +1732,7 @@ DisplayTeleportPlayerMenu(client)
 DisplayGodModeMenu(client)
 {
 	new Handle:menu2 = CreateMenu(MenuHandler_GodMode);
-	SetMenuTitle(menu2, "Select Player:");
+	SetMenuTitle(menu2, "选择幸存者:");
 	SetMenuExitBackButton(menu2, true);
 	AddTargetsToMenu2(menu2, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu2, client, MENU_TIME_FOREVER);
@@ -1741,7 +1741,7 @@ DisplayGodModeMenu(client)
 DisplayIncapPlayerMenu(client)
 {
 	new Handle:menu3 = CreateMenu(MenuHandler_IncapPlayer);
-	SetMenuTitle(menu3, "Select Player:");
+	SetMenuTitle(menu3, "选择幸存者:");
 	SetMenuExitBackButton(menu3, true);
 	AddTargetsToMenu2(menu3, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu3, client, MENU_TIME_FOREVER);
@@ -1750,7 +1750,7 @@ DisplayIncapPlayerMenu(client)
 DisplaySpeedPlayerMenu(client)
 {
 	new Handle:menu4 = CreateMenu(MenuSubHandler_SpeedPlayer);
-	SetMenuTitle(menu4, "Select Player:");
+	SetMenuTitle(menu4, "选择幸存者:");
 	SetMenuExitBackButton(menu4, true);
 	AddTargetsToMenu2(menu4, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu4, client, MENU_TIME_FOREVER);
@@ -1759,7 +1759,7 @@ DisplaySpeedPlayerMenu(client)
 DisplaySetHpPlayerMenu(client)
 {
 	new Handle:menu5 = CreateMenu(MenuSubHandler_SetHpPlayer);
-	SetMenuTitle(menu5, "Select Player:");
+	SetMenuTitle(menu5, "选择幸存者:");
 	SetMenuExitBackButton(menu5, true);
 	AddTargetsToMenu2(menu5, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu5, client, MENU_TIME_FOREVER);
@@ -1768,7 +1768,7 @@ DisplaySetHpPlayerMenu(client)
 DisplayChangeHpMenu(client)
 {
 	new Handle:menu5 = CreateMenu(MenuSubHandler_ChangeHp);
-	SetMenuTitle(menu5, "Select Player:");
+	SetMenuTitle(menu5, "选择幸存者:");
 	SetMenuExitBackButton(menu5, true);
 	AddTargetsToMenu2(menu5, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu5, client, MENU_TIME_FOREVER);
@@ -1777,7 +1777,7 @@ DisplayChangeHpMenu(client)
 DisplayColorPlayerMenu(client)
 {
 	new Handle:menu6 = CreateMenu(MenuSubHandler_ColorPlayer);
-	SetMenuTitle(menu6, "Select Player:");
+	SetMenuTitle(menu6, "选择幸存者:");
 	SetMenuExitBackButton(menu6, true);
 	AddTargetsToMenu2(menu6, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu6, client, MENU_TIME_FOREVER);
@@ -1786,17 +1786,17 @@ DisplayColorPlayerMenu(client)
 DisplayCreateExplosionMenu(client)
 {
 	new Handle:menu7 = CreateMenu(MenuHandler_CreateExplosion);
-	SetMenuTitle(menu7, "Select Position:");
+	SetMenuTitle(menu7, "选择幸存者:");
 	SetMenuExitBackButton(menu7, true);
-	AddMenuItem(menu7, "onpos", "On Current Position");
-	AddMenuItem(menu7, "onang", "On Cursor Position");
+	AddMenuItem(menu7, "onpos", "在当前位置");
+	AddMenuItem(menu7, "onang", "在鼠标位置");
 	DisplayMenu(menu7, client, MENU_TIME_FOREVER);
 }
 
 DisplayScalePlayerMenu(client)
 {
 	new Handle:menu8 = CreateMenu(MenuSubHandler_ScalePlayer);
-	SetMenuTitle(menu8, "Select Player:");
+	SetMenuTitle(menu8, "选择幸存者:");
 	SetMenuExitBackButton(menu8, true);
 	AddTargetsToMenu2(menu8, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu8, client, MENU_TIME_FOREVER);
@@ -1805,7 +1805,7 @@ DisplayScalePlayerMenu(client)
 DisplayShakePlayerMenu(client)
 {
 	new Handle:menu8 = CreateMenu(MenuSubHandler_ShakePlayer);
-	SetMenuTitle(menu8, "Select Player:");
+	SetMenuTitle(menu8, "选择幸存者:");
 	SetMenuExitBackButton(menu8, true);
 	AddTargetsToMenu2(menu8, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu8, client, MENU_TIME_FOREVER);
@@ -1814,7 +1814,7 @@ DisplayShakePlayerMenu(client)
 DisplayDontRushMenu(client)
 {
 	new Handle:menu10 = CreateMenu(MenuHandler_DontRush);
-	SetMenuTitle(menu10, "Select Player:");
+	SetMenuTitle(menu10, "选择幸存者:");
 	SetMenuExitBackButton(menu10, true);
 	AddTargetsToMenu2(menu10, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu10, client, MENU_TIME_FOREVER);
@@ -1823,7 +1823,7 @@ DisplayDontRushMenu(client)
 DisplayAirstrikeMenu(client)
 {
 	new Handle:menu11 = CreateMenu(MenuHandler_Airstrike);
-	SetMenuTitle(menu11, "Select Player:");
+	SetMenuTitle(menu11, "选择幸存者:");
 	SetMenuExitBackButton(menu11, true);
 	AddTargetsToMenu2(menu11, client, COMMAND_FILTER_CONNECTED);
 	DisplayMenu(menu11, client, MENU_TIME_FOREVER);
@@ -1971,78 +1971,78 @@ public MenuSubHandler_ShakePlayer(Handle:menu8, MenuAction:action, param1, param
 DisplaySpeedValueMenu(client)
 {
 	new Handle:menu2a = CreateMenu(MenuHandler_SpeedPlayer);
-	SetMenuTitle(menu2a, "New Speed:");
+	SetMenuTitle(menu2a, "设置速度:");
 	SetMenuExitBackButton(menu2a, true);
-	AddMenuItem(menu2a, "l4dspeeddouble", "x2 Speed");
-	AddMenuItem(menu2a, "l4dspeedtriple", "x3 Speed");
-	AddMenuItem(menu2a, "l4dspeedhalf", "1/2 Speed");
-	AddMenuItem(menu2a, "l4dspeed3", "1/3 Speed");
-	AddMenuItem(menu2a, "l4dspeed4", "1/4 Speed");
-	AddMenuItem(menu2a, "l4dspeedquarter", "x4 Speed");
-	AddMenuItem(menu2a, "l4dspeedfreeze", "0 Speed");
-	AddMenuItem(menu2a, "l4dspeednormal", "Normal Speed");
+	AddMenuItem(menu2a, "l4dspeeddouble", "x2 倍速");
+	AddMenuItem(menu2a, "l4dspeedtriple", "x3 倍速");
+	AddMenuItem(menu2a, "l4dspeedhalf", "1/2 倍速");
+	AddMenuItem(menu2a, "l4dspeed3", "1/3 倍速");
+	AddMenuItem(menu2a, "l4dspeed4", "1/4 倍速");
+	AddMenuItem(menu2a, "l4dspeedquarter", "x4 倍速");
+	AddMenuItem(menu2a, "l4dspeedfreeze", "0 倍速");
+	AddMenuItem(menu2a, "l4dspeednormal", "正常速度");
 	DisplayMenu(menu2a, client, MENU_TIME_FOREVER);
 }
 
 DisplaySetHpValueMenu(client)
 {
 	new Handle:menu2b = CreateMenu(MenuHandler_SetHpPlayer);
-	SetMenuTitle(menu2b, "New Health:");
+	SetMenuTitle(menu2b, "设置血量:");
 	SetMenuExitBackButton(menu2b, true);
-	AddMenuItem(menu2b, "l4dhpdouble", "x2 Health");
-	AddMenuItem(menu2b, "l4dhptriple", "x3 Health");
-	AddMenuItem(menu2b, "l4dhphalf", "1/2 Health");
-	AddMenuItem(menu2b, "l4dhp3", "1/3 Health");
-	AddMenuItem(menu2b, "l4dhp4", "1/4 Health");
-	AddMenuItem(menu2b, "l4dhpquarter", "x4 Health");
-	AddMenuItem(menu2b, "l4dhppls100", "+100 Health");
-	AddMenuItem(menu2b, "l4dhppls50", "+50 Health");
+	AddMenuItem(menu2b, "l4dhpdouble", "x2 血量");
+	AddMenuItem(menu2b, "l4dhptriple", "x3 血量");
+	AddMenuItem(menu2b, "l4dhphalf", "1/2 血量");
+	AddMenuItem(menu2b, "l4dhp3", "1/3 血量");
+	AddMenuItem(menu2b, "l4dhp4", "1/4 血量");
+	AddMenuItem(menu2b, "l4dhpquarter", "x4 血量");
+	AddMenuItem(menu2b, "l4dhppls100", "+100 血量");
+	AddMenuItem(menu2b, "l4dhppls50", "+50 血量");
 	DisplayMenu(menu2b, client, MENU_TIME_FOREVER);
 }
 
 DisplayColorValueMenu(client)
 {
 	new Handle:menu2c = CreateMenu(MenuHandler_ColorPlayer);
-	SetMenuTitle(menu2c, "Select Color:");
+	SetMenuTitle(menu2c, "设置颜色:");
 	SetMenuExitBackButton(menu2c, true);
-	AddMenuItem(menu2c, "l4dcolorred", "Red");
-	AddMenuItem(menu2c, "l4dcolorblue", "Blue");
-	AddMenuItem(menu2c, "l4dcolorgreen", "Green");
-	AddMenuItem(menu2c, "l4dcoloryellow", "Yellow");
-	AddMenuItem(menu2c, "l4dcolorblack", "Black");
-	AddMenuItem(menu2c, "l4dcolorwhite", "White - Normal");
-	AddMenuItem(menu2c, "l4dcolortrans", "Transparent");
-	AddMenuItem(menu2c, "l4dcolorhtrans", "Semi Transparent");
+	AddMenuItem(menu2c, "l4dcolorred", "红色");
+	AddMenuItem(menu2c, "l4dcolorblue", "蓝色");
+	AddMenuItem(menu2c, "l4dcolorgreen", "绿色");
+	AddMenuItem(menu2c, "l4dcoloryellow", "黄色");
+	AddMenuItem(menu2c, "l4dcolorblack", "黑色");
+	AddMenuItem(menu2c, "l4dcolorwhite", "白色 - 正常");
+	AddMenuItem(menu2c, "l4dcolortrans", "透明");
+	AddMenuItem(menu2c, "l4dcolorhtrans", "半透明");
 	DisplayMenu(menu2c, client, MENU_TIME_FOREVER);
 }
 
 DisplayScaleValueMenu(client)
 {
 	new Handle:menu2a = CreateMenu(MenuHandler_ScalePlayer);
-	SetMenuTitle(menu2a, "New Scale:");
+	SetMenuTitle(menu2a, "设置缩放:");
 	SetMenuExitBackButton(menu2a, true);
-	AddMenuItem(menu2a, "l4dscaledouble", "x2 Scale");
-	AddMenuItem(menu2a, "l4dscaletriple", "x3 Scale");
-	AddMenuItem(menu2a, "l4dscalehalf", "1/2 Scale");
-	AddMenuItem(menu2a, "l4dscale3", "1/3 Scale");
-	AddMenuItem(menu2a, "l4dscale4", "1/4 Scale");
-	AddMenuItem(menu2a, "l4dscalequarter", "x4 Scale");
-	AddMenuItem(menu2a, "l4dscalefreeze", "0 Scale");
-	AddMenuItem(menu2a, "l4dscalenormal", "Normal scale");
+	AddMenuItem(menu2a, "l4dscaledouble", "x2 倍缩放");
+	AddMenuItem(menu2a, "l4dscaletriple", "x3 倍缩放");
+	AddMenuItem(menu2a, "l4dscalehalf", "1/2 倍缩放");
+	AddMenuItem(menu2a, "l4dscale3", "1/3 倍缩放");
+	AddMenuItem(menu2a, "l4dscale4", "1/4 倍缩放");
+	AddMenuItem(menu2a, "l4dscalequarter", "x4 倍缩放");
+	AddMenuItem(menu2a, "l4dscalefreeze", "0 倍缩放");
+	AddMenuItem(menu2a, "l4dscalenormal", "正常大小");
 	DisplayMenu(menu2a, client, MENU_TIME_FOREVER);
 }
 
 DisplayShakeValueMenu(client)
 {
 	new Handle:menu2a = CreateMenu(MenuHandler_ShakePlayer);
-	SetMenuTitle(menu2a, "Shake duration:");
-	AddMenuItem(menu2a, "shake60", "1 Minute");
-	AddMenuItem(menu2a, "shake45", "45 Seconds");
-	AddMenuItem(menu2a, "shake30", "30 Seconds");
-	AddMenuItem(menu2a, "shake15", "15 Seconds");
-	AddMenuItem(menu2a, "shake10", "10 Seconds");
-	AddMenuItem(menu2a, "shake5", "5 Seconds");
-	AddMenuItem(menu2a, "shake1", "1 Second");
+	SetMenuTitle(menu2a, "晃动持续时间:");
+	AddMenuItem(menu2a, "shake60", "1 分钟");
+	AddMenuItem(menu2a, "shake45", "45 秒");
+	AddMenuItem(menu2a, "shake30", "30 秒");
+	AddMenuItem(menu2a, "shake15", "15 秒");
+	AddMenuItem(menu2a, "shake10", "10 秒");
+	AddMenuItem(menu2a, "shake5", "5 秒");
+	AddMenuItem(menu2a, "shake1", "1 秒");
 	SetMenuExitBackButton(menu2a, true);
 	DisplayMenu(menu2a, client, MENU_TIME_FOREVER);
 }
@@ -2050,10 +2050,10 @@ DisplayShakeValueMenu(client)
 DisplayChangeHpStyleMenu(client)
 {
 	new Handle:menu2a = CreateMenu(MenuHandler_ChangeHpPlayer);
-	SetMenuTitle(menu2a, "Select Style:");
+	SetMenuTitle(menu2a, "设置血量模式:");
 	SetMenuExitBackButton(menu2a, true);
-	AddMenuItem(menu2a, "l4dperm", "Permanent Health");
-	AddMenuItem(menu2a, "l4dtemp", "Temporal Health");
+	AddMenuItem(menu2a, "l4dperm", "实血");
+	AddMenuItem(menu2a, "l4dtemp", "虚血");
 	DisplayMenu(menu2a, client, MENU_TIME_FOREVER);
 }
 	
@@ -2618,12 +2618,12 @@ public MenuHandler_Airstrike(Handle:menu2, MenuAction:action, param1, param2)
 		target = GetClientOfUserId(userid);
 		if(target == 0)
 		{
-			PrintToChat(param1, "[SM] Client is invalid");
+			PrintToChat(param1, "[SM]客户端无效");
 			return;
 		}
 		if(GetClientTeam(target) == 1)
 		{
-			PrintToChat(param1, "[SM] Spectators cannot be targets");
+			PrintToChat(param1, "[SM]观察者不能成为选择对象");
 			return;
 		}
 		Airstrike(target);
@@ -2674,28 +2674,28 @@ IncapPlayer(target, sender)
 {
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM]Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM]No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM]Spectators cannot be incapacitated!");
+		PrintToChat(sender, "[SM]观察者不可设置倒地!");
 		return;
 	}
 	else if(GetClientTeam(target) == 3 && GetEntProp(target, Prop_Send, "m_zombieClass") != 8)
 	{
-		PrintToChat(sender, "[SM]Only survivors and tanks can be incapacitated!");
+		PrintToChat(sender, "[SM]只有幸存者和坦克可以设置倒地!");
 		return;
 	}
 	else if(GetClientTeam(target) == 2 && GetEntProp(target, Prop_Send, "m_isIncapacitated") == 1)
 	{
-		PrintToChat(sender, "[SM]Cannot incap incapped survivors!");
+		PrintToChat(sender, "[SM]不能将倒地状态幸存者设置倒地!");
 		return;
 	}
 	
@@ -2718,18 +2718,18 @@ ChangeSpeed(target, sender, Float:newspeed)
 {
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM]Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM]No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM]Cannot set a spectator's speed!");
+		PrintToChat(sender, "[SM]无法设置观察者速度!");
 		return;
 	}
 	SetEntDataFloat(target, g_flLagMovement, newspeed, true);
@@ -2739,18 +2739,18 @@ SetHealth(target, sender, amount)
 {
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM]Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM]No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM]Spectators have no health!");
+		PrintToChat(sender, "[SM]观察者没有血量!");
 		return;
 	}
 	SetEntityHealth(target, amount);
@@ -2760,18 +2760,18 @@ ChangeColor(target, sender, String:color[])
 {
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM]Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM]No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM]Cannot change color of an spectator");
+		PrintToChat(sender, "[SM]无法设置观察者颜色");
 		return;
 	}
 	DispatchKeyValue(target, "rendercolor", color);
@@ -2948,17 +2948,17 @@ Bleed(target, sender, Float:duration)
 {
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM] Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM] No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM] Spectators can't bleed!");
+		PrintToChat(sender, "[SM]观察者无法流血!");
 		return;
 	}
 	//Userid for targetting
@@ -3004,18 +3004,18 @@ ChangeScale(target, sender, Float:scale)
 {
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM] Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM] No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM] Spectators don't have a model with a default scale");
+		PrintToChat(sender, "[SM]观察者没有默认缩放");
 		return;
 	}
 	SetEntPropFloat(target, Prop_Send, "m_flModelScale", scale);
@@ -3027,18 +3027,18 @@ TeleportBack(target, sender)
 	GetCurrentMap(map, sizeof(map));
 	if(target == 0)
 	{
-		PrintToChat(sender, "[SM]Client is invalid");
+		PrintToChat(sender, "[SM]客户端无效");
 		return;
 	}
 	if(target == -1)
 	{
-		PrintToChat(sender, "[SM]No targets with the given name!");
+		PrintToChat(sender, "[SM]名称无效!");
 		return;
 	}
 	
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM]Spectators cannot even rush!");
+		PrintToChat(sender, "[SM]观察者不能跑图!");
 		return;
 	}
 	if(StrEqual(map, "c1m1_hotel"))
@@ -3199,10 +3199,10 @@ TeleportBack(target, sender)
 	}
 	else
 	{
-		PrintToChat(sender, "[SM] This commands doesn't support the current map!");
+		PrintToChat(sender, "[SM]当前地图不支持此命令!");
 	}
 	TeleportEntity(target, pos, NULL_VECTOR, NULL_VECTOR);
-	PrintHintText(target, "You were teleported to the beginning of the map for rushing!");
+	PrintHintText(target, "你由于跑图被传送回起始安全屋!");
 }
 
 EndGame()
@@ -3223,7 +3223,7 @@ EndGame()
 	power = 350.0;
 	if(!AliveFilter(target))
 	{
-		PrintToChat(sender, "[SM] The user is not alive!");
+		PrintToChat(sender, "[SM]角色已死亡!");
 		return;
 	}
 	GetClientAbsOrigin(sender, flCpos);
@@ -3293,7 +3293,7 @@ BlackAndWhite(target, sender)
 	{
 		if(GetClientTeam(target) != 2)
 		{
-			PrintToChat(sender, "[SM] This command can be used on survivors only");
+			PrintToChat(sender, "[SM]此命令只允许幸存者使用");
 		}
 		SetEntityHealth(target, 1);
 		SetEntPropFloat(target, Prop_Send, "m_healthBufferTime", GetGameTime());
@@ -3308,7 +3308,7 @@ SwitchHealth(target, sender, type)
 	{
 		if(GetClientTeam(target) != 2)
 		{
-			PrintToChat(sender, "[SM] This command can be used on survivors only");
+			PrintToChat(sender, "[SM]此命令只允许幸存者使用");
 		}
 		if(type == 1)
 		{
@@ -3386,19 +3386,19 @@ GodMode(target, sender)
 {
 	if(GetClientTeam(target) == 1)
 	{
-		PrintToChat(sender, "[SM] You cannot use this command on spectators");
+		PrintToChat(sender, "[SM]你不能将此命令应用于观察者");
 	}
 	if(g_bHasGod[target])
 	{
 		SetEntProp(target, Prop_Data, "m_takedamage", 2, 1);
 		g_bHasGod[target] = false;
-		PrintToChat(sender, "[SM] The selected player has now god mode [Deactivated]");
+		PrintToChat(sender, "[SM]你选择的角色当前处于上帝模式 [未激活]");
 	}
 	else
 	{
 		SetEntProp(target, Prop_Data, "m_takedamage", 0, 1);
 		g_bHasGod[target] = true;
-		PrintToChat(sender, "[SM] The selected player has now god mode [Activated]");
+		PrintToChat(sender, "[SM]你选择的角色当前处于上帝模式 [激活]");
 	}
 }
 
@@ -3662,7 +3662,7 @@ public Action:CmdEntityInfo(client, args)
 		ReplyToCommand (client, "Invalid entity, or looking to nothing");
 	}
 	GetEdictClassname(entity, Classname, sizeof(Classname));
-	PrintToChat(client, "Classname: %s", Classname);
+	PrintToChat(client, "物体名称: %s", Classname);
 }
 
 stock PrecacheParticle(String:ParticleName[])

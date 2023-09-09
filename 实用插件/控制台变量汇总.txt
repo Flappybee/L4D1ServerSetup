@@ -1,3 +1,5 @@
+使用控制台变量需要在前面加sm_cvar
+
 1. 倒地自救
 倒地自救:             "l4d_selfhelp_incap", "3", "self help for incap , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
 被舌头抓住时自救:      "l4d_selfhelp_grab", "3", " self help for grab , 0:禁用, 1:药丸, 2:急救包, 3:药丸与急救包皆可 "
