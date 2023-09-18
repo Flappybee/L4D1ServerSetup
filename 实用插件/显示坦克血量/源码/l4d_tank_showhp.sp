@@ -242,7 +242,7 @@ public void Event_OnTankKilled(Event event, const char[] name, bool dontBroadcas
 	
 	if( tank && IsClientInGame(tank) )
 	{
-		PrintHintTextToAll("++ %N 已死亡 ++", tank);
+		PrintHintTextToAll("++ 坦克已死亡 ++");
 	}
 }
 
