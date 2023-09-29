@@ -1,0 +1,148 @@
+//<-- Light-Green
+//<-- GREEN
+//<-- WHITE
+//<-- ORANGE
+//<-- BLUE
+
+"Phrases"
+{
+	"drop_nothing"
+	{
+		"#format"	"{1:s}"
+		"en"		"You do not have a {1}!"
+		"ru"		"Кaкoй eщё {1}! Мы жe eгo eщё нa npoшлoй кapтe nponuлu."
+		"chi"		"你沒有 {1}!"
+		"zho"		"你沒有 {1}!"
+	}
+	"drop_pumpshotgun"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the pumpshotgun."
+		"ru"		"{1} выкuнул noмnoвый дpoбoвuк."
+		"chi"		"{1} 丢弃了 散弹枪."
+		"zho"		"{1} 丟棄了 散彈槍."
+	}
+	"drop_autoshotgun"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the autoshotgun."
+		"ru"		"{1} выкuнул aвтoмaтuчecкuй дpoбoвuк."
+		"chi"		"{1} 丢弃了 连发散弹枪."
+		"zho"		"{1} 丟棄了 連發散彈槍."
+	}
+	"drop_smg"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the SMG."
+		"ru"		"{1} выкuнул узu."
+		"chi"		"{1} 丢弃了 机枪."
+		"zho"		"{1} 丟棄了 機槍."
+	}
+	"drop_rifle"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the M16."
+		"ru"		"{1} выкuнул M16."
+		"chi"		"{1} 丢弃了 步枪."
+		"zho"		"{1} 丟棄了 步槍."
+	}
+	"drop_hunting_rifle"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the hunting rifle."
+		"ru"		"{1} выкuнул вuнтoвку."
+		"chi"		"{1} 丢弃了 猎枪."
+		"zho"		"{1} 丟棄了 獵槍."
+	}
+	"drop_pistol"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the pistol."
+		"ru"		"{1} выкuнул nucтoлeт."
+		"chi"		"{1} 丢弃了 手枪."
+		"zho"		"{1} 丟棄了 手槍."
+	}
+	"drop_last_pistol"
+	{
+		"en"		" You can't drop your only pistol!"
+		"ru"		" Coвecть: этo жe нaгaн твoeй бaбушкu."
+		"chi"		" 无法丢弃剩余的手枪!"
+		"zho"		" 無法丟棄剩餘的手槍!"
+	}
+	"drop_first_aid_kit"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the first aid kit."
+		"ru"		"{1} выкuнул anтeчкy."
+		"chi"		"{1} 丢弃了 治疗包."
+		"zho"		"{1} 丟棄了 治療包."
+	}
+	"drop_pipe_bomb"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the pipe bomb."
+		"ru"		"{1} выкuнул гранату."
+		"chi"		"{1} 丢弃了 土制炸弹."
+		"zho"		"{1} 丟棄了 土製炸彈."
+	}
+	"drop_molotov"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the molotov."
+		"ru"		"{1} выкuнул мoлoтoв."
+		"chi"		"{1} 丢弃了 火焰瓶."
+		"zho"		"{1} 丟棄了 火焰瓶."
+	}
+	"drop_pills"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} droped the pain pills."
+		"ru"		"{1} выкuнул тaблeткu."
+		"chi"		"{1} 丢弃了 燃烧瓶."
+		"zho"		"{1} 丟棄了 燃燒瓶."
+	}
+	"drop_specify"
+	{
+		"en"		"This server's settings do not allow you to drop a specific weapon.  Use sm_drop(/drop in chat) without a weapon name after it to drop the weapon you are holding."
+		"ru"		"Нacтpoйкu этoгo cepвepa нe noзвoляют cбpocuть onpeдeлeннoe opyжue. Иcnoльзyйтe sm_drop (/drop в чaтe) бeз uмeнu opyжuя, чтoбы бpocuть opyжue, кoтopoe вы дepжuтe в pyкax."
+		"chi"		"本伺服器不允许丢弃特定的武器. 使用 sm_drop(聊天视窗打/drop) 无须输入武器名称即可丢弃手中武器."
+		"zho"		"本伺服器不允許丟棄特定的武器. 使用 sm_drop(聊天視窗打/drop) 無須輸入武器名稱即可丟棄手中武器."
+	}
+    "drop_exploit_molotov"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} is tried to use cheat 'molotov drop' !!!"
+		"ru"		"{1} пытался использовать чит 'дроп молотова' !!!"
+		"chi"		"{1} 尝试使用作弊 '丢弃燃烧瓶' !!!"
+		"zho"		"{1} 嘗試使用作弊 '丟棄燃燒瓶' !!!"
+	}
+    "drop_exploit_pipe_bomb"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} is tried to use cheat 'pipe bomb drop' !!!"
+		"ru"		"{1} пытался использовать чит 'дроп гранаты' !!!"
+		"chi"		"{1} 尝试使用作弊 '丢弃土制炸弹' !!!"
+		"zho"		"{1} 嘗試使用作弊 '丟棄土製炸彈' !!!"
+	}
+	"Too_often"
+	{
+		"en"		"You can't use drop too often!"
+		"ru"		"Нельзя использовать drop так часто"
+		"chi"		"不能太频繁地丢弃武器!"
+		"zho"		"不能太频繁地丟棄武器!"
+	}
+	"End_Limit"
+	{
+		"en"		"Your limit of drops is exceeded"
+		"ru"		"Вы исчерпали лимит на использование drop"
+		"chi"		"丢弃武器次数已达上限!"
+		"zho"		"丟棄武器次數已達上限!"
+	}
+	"Wait_Drop"
+	{
+		"en"		"You must wait some time before you can drop again"
+		"ru"		"Придётся подождать перед очередным использованием drop"
+		"chi"		"需等待时间才能再丢弃武器!"
+		"zho"		"需等待時間才能再丟棄武器!"
+	}
+}

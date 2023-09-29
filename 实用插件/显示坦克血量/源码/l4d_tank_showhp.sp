@@ -64,7 +64,7 @@ public void OnPluginStart()
 	CreateConVar("l4d_showtankhp_version", PLUGIN_VERSION, "L4D Infected HP version", CVAR_FLAGS | FCVAR_DONTRECORD);
 
 	g_hCvarEnable 		= CreateConVar("l4d_showtankhp_enable", 		"1", 	"Enable plugin (1 - Yes, 0 - No)", CVAR_FLAGS );
-	g_hCvarComponents 	= CreateConVar("l4d_showtankhp_components", 	"31", 	"HP line components (1 - label 'HP', 2 - Bar, 4 - Current HP, 8 - Max HP, 16 - Tank name. You can combine)", CVAR_FLAGS );
+	g_hCvarComponents 	= CreateConVar("l4d_showtankhp_components", 	"0", 	"HP line components (1 - label 'HP', 2 - Bar, 4 - Current HP, 8 - Max HP, 16 - Tank name. You can combine)", CVAR_FLAGS );
 	g_hCvarKillMsg 		= CreateConVar("l4d_showtankhp_kill_msg", 		"1", 	"Show tank kill message? (1 - Yes, 0 - No)", CVAR_FLAGS );
 	
 	AutoExecConfig(true, "l4d_showtankhp");
@@ -140,6 +140,12 @@ public void Event_OnTankSpawned(Event event, const char[] name, bool dontBroadca
 {
 	int tank = GetClientOfUserId(event.GetInt("userid"));
 	g_iPrevHP[tank] = 999999;
+    if (!g_bKillMsg)
+        return;
+    if (tank && IsClientInGame(tank))
+    {
+        PrintHintTextToAll("坦克出现!!!");
+    }
 }
 
 public void Event_OnPlayerHurt(Event event, const char[] name, bool dontBroadcast)

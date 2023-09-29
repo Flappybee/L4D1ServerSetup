@@ -45,3 +45,8 @@ sm_cvar sv_hibernate_when_empty 0 //服务器没有人的时候不允许关闭
 	"alias"		"sourcemod"
 	"file"		"../left4dead/addons/sourcemod/bin/sourcemod_mm"
 }
+
+
+6. show_menu弹出菜单持续时间设置
+cl_menuduration 30 //持续三十秒
+cl_menuduration -1  //永不消失

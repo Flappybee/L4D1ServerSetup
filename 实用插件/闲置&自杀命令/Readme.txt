@@ -26,5 +26,5 @@ l4d_nth_spectate "1"
 // 新玩家加入时是否有提示消息
 l4d_nth_message "1"
 
-// 提示消息多久重复一次(改变此值需要重新加载插件才可生效)
+// 提示消息多久重复一次
 l4d_nth_timerrepeat "30" 
