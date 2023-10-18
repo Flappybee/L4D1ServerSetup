@@ -137,11 +137,18 @@ public Action:Kill_Me(client, args)
 	}
 	return Plugin_Continue;
 }
-
+public OnMapStart()
+{
+    PrecacheSound(PLAYER_JOIN_SOUND);
+}
 public OnClientConnected(client)
 {
-	if (IsClientInGame(client) && !IsFakeClient(client))
+	if (!IsFakeClient(client))
 	{
+        if (!IsSoundPrecached(PLAYER_JOIN_SOUND))
+        {
+            PrecacheSound(PLAYER_JOIN_SOUND);
+        }
 		EmitSoundToAll(PLAYER_JOIN_SOUND);
 	}
 }

@@ -1,0 +1,5 @@
+L 10/03/2023 - 16:34:40: SourceMod error session started
+L 10/03/2023 - 16:34:40: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231003.log")
+L 10/03/2023 - 16:34:40: [SM] Unable to load extension "left4downtown.ext": vstdlib_i486.so: cannot open shared object file: No such file or directory
+L 10/03/2023 - 16:34:40: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/03/2023 - 18:06:48: Error log file session closed.

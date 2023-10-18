@@ -1076,7 +1076,7 @@ void CreateMenuCampaigns(int client, int ChosenGroup, int ChosenRating, int menu
 	do
 	{
 		g_kv.GetSectionName(campaign, sizeof(campaign));
-		NormalizeName(campaign);
+//		NormalizeName(campaign);
 		asort.PushString(campaign);
 	} while( g_kv.GotoNextKey() );
 	
@@ -1131,11 +1131,11 @@ void CreateMenuCampaigns(int client, int ChosenGroup, int ChosenRating, int menu
 		if( g_RatingMenu[client] )
 		{
 			FormatEx(Value, sizeof(Value), "%T", "No_maps_rating", client); // Карт с такой оценкой ещё нет.
-			PrintToChat(client, "\x03[MapChanger]\x05 %s", Value);
+			PrintToChat(client, "\x03[提示]\x05 %s", Value);
 			CreateMenuRating(client);
 		} else {
 			FormatEx(Value, sizeof(Value), "%T", "No_maps_in_group", client); // В этой группе ещё нет карт.
-			PrintToChat(client, "\x03[MapChanger]\x05 %s", Value);
+			PrintToChat(client, "\x03[提示]\x05 %s", Value);
 			Menu_ChooseMap(client);
 		}
 	}
@@ -1630,7 +1630,7 @@ void CheckVoteMap(int client, char[] map, bool bIsCustom)
 			if( g_fLastTime[client] != 0 && !IsClientRootAdmin(client) )
 			{
 				if ( g_fLastTime[client] + g_hCvarDelay.FloatValue > fCurTime ) {
-					PrintToChat(client, "\x03[MapChanger]\x05 %t", "too_often"); // "You can't vote too often!"
+					PrintToChat(client, "\x03[提示]\x05 %t", "too_often"); // "You can't vote too often!"
 					LogVoteAction(client, "[DELAY] Attempt to vote too often. Time left: %i sec.", (g_fLastTime[client] + g_hCvarDelay.FloatValue) - fCurTime);
 					return;
 				}
@@ -1645,7 +1645,7 @@ void CheckVoteMap(int client, char[] map, bool bIsCustom)
 		}
 	} else {
 		if( client ) {
-			PrintToChat(client, "\x03[MapChanger]\x05 %t %s %t", "map", map, "not_exist");  // Карта XXX больше не существует на сервере!
+			PrintToChat(client, "\x03[提示]\x05 %t %s %t", "map", map, "not_exist");  // Карта XXX больше не существует на сервере!
 		}
 		LogVoteAction(client, "[DENY] Map is not exist.");
 	}
@@ -1789,7 +1789,7 @@ void StartVoteMark(int client, char[] sCampaign)
 	if( g_fLastTimeMark[client] != 0 && !HasRemoveRatingAccess(client) )
 	{
 		if ( g_fLastTimeMark[client] + g_hCvarDelay.FloatValue > fCurTime ) {
-			PrintToChat(client, "\x03[MapChanger]\x05 %t", "too_often"); // "You can't vote too often!"
+			PrintToChat(client, "\x03[提示]\x05 %t", "too_often"); // "You can't vote too often!"
 			LogVoteAction(client, "[DELAY] Attempt to vote too often. Time left: %i sec.", (g_fLastTimeMark[client] + g_hCvarDelay.FloatValue) - fCurTime);
 			return;
 		}
@@ -2383,8 +2383,7 @@ bool ParseMissionFile(char[] missionFile, bool bIsAddon)
 			{
 				// give preference to "DisplayTitle" (usually, more suitable) if length > 5
 				// "$name" is some link, so skip it.
-				strcopy(sCampaign, sizeof(sCampaign), sTitle[0] != '$' && ( strlen(sTitle) > 5 || (strlen(sTitle) > strlen(sName)) ) ? sTitle : 
-					sName[0] != 0 ? sName : sTitle );
+				strcopy(sCampaign, sizeof(sCampaign), sTitle[0] == '$' || sTitle[0] == 0 ? sName : sTitle );
 			}
 		}
 		
@@ -2420,15 +2419,15 @@ bool ParseMissionFile(char[] missionFile, bool bIsAddon)
 
 void AddMapTemplate(bool bIsAddon, char[] sCampaign, GAME_TYPE eType, char[] sMap, char[] sMapDisplay)
 {
-	if( sCampaign[0] != '#' )
-	{
-		ClearStringMB(sCampaign);
-		NormalizeName(sCampaign);
-	}
-	if( sMapDisplay[0] != '#' )
-	{
-		NormalizeName(sMapDisplay);
-	}
+// 	if( sCampaign[0] != '#' )
+// 	{
+// 		ClearStringMB(sCampaign);
+// 		NormalizeName(sCampaign);
+// 	}
+// 	if( sMapDisplay[0] != '#' )
+// 	{
+// 		NormalizeName(sMapDisplay);
+// 	}
 	
 	if( bIsAddon )
 	{
@@ -2482,7 +2481,7 @@ void AddMapToKV(KeyValues kv, char[] sCampaign, GAME_TYPE eType, char[] sMap, ch
 			}
 		}
 	}
-	//PrintToServer("(%s) Map: \"%s\" (%s)", GAME_TYPE_STR[eType], sMap, sMapDisplay);
+//	PrintToServer("(%s) Map: \"%s\" (%s)", GAME_TYPE_STR[eType], sMap, sMapDisplay);
 }
 
 GAME_TYPE KV_FindGameMode(char[] str)

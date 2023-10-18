@@ -1,0 +1,2456 @@
+"campaigns"
+{
+	"7小时后"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_7hours_later_01"
+				"DisplayName"		"森林"
+			}
+			"2"
+			{
+				"Map"		"l4d_7hours_later_02"
+				"DisplayName"		"大桥"
+			}
+			"3"
+			{
+				"Map"		"l4d_7hours_later_03"
+				"DisplayName"		"森林高速路"
+			}
+			"4"
+			{
+				"Map"		"l4d_7hours_later_04"
+				"DisplayName"		"工厂"
+			}
+			"5"
+			{
+				"Map"		"l4d_7hours_later_05"
+				"DisplayName"		"森林机场"
+			}
+		}
+	}
+	"封锁"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_route66"
+				"DisplayName"		"路障"
+			}
+			"2"
+			{
+				"Map"		"l4d_route76"
+				"DisplayName"		"隧道入口"
+			}
+			"3"
+			{
+				"Map"		"l4d_shoppingcenter"
+				"DisplayName"		"砍价"
+			}
+			"4"
+			{
+				"Map"		"l4d_subwayescape"
+				"DisplayName"		"地铁逃生"
+			}
+		}
+	}
+	"血战医院"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"blood_hospital_01"
+				"DisplayName"		"第一节"
+			}
+			"2"
+			{
+				"Map"		"blood_hospital_02"
+				"DisplayName"		"第二节"
+			}
+			"3"
+			{
+				"Map"		"blood_hospital_03"
+				"DisplayName"		"第三节"
+			}
+		}
+	}
+	"血腥森林"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"Las"
+				"DisplayName"		"森林"
+			}
+			"2"
+			{
+				"Map"		"Magazyn"
+				"DisplayName"		"仓库"
+			}
+			"3"
+			{
+				"Map"		"Most"
+				"DisplayName"		"桥"
+			}
+			"4"
+			{
+				"Map"		"Farma"
+				"DisplayName"		"农场"
+			}
+			"5"
+			{
+				"Map"		"Tunele"
+				"DisplayName"		"隧道"
+			}
+			"6"
+			{
+				"Map"		"Lotnisko"
+				"DisplayName"		"机场"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"Lotnisko"
+				"DisplayName"		"机场"
+			}
+		}
+	}
+	"血腥周末"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_bs_mansion"
+				"DisplayName"		"大厦"
+			}
+			"2"
+			{
+				"Map"		"l4d_bs_riverside"
+				"DisplayName"		"河边"
+			}
+			"3"
+			{
+				"Map"		"l4d_bs_valley_of_death"
+				"DisplayName"		"死亡之谷"
+			}
+			"4"
+			{
+				"Map"		"l4d_bs_barrage"
+				"DisplayName"		"河坝"
+			}
+			"5"
+			{
+				"Map"		"l4d_bs_bloodyfinale"
+				"DisplayName"		"逃亡"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_bs_mansion"
+				"DisplayName"		"大厦"
+			}
+			"2"
+			{
+				"Map"		"l4d_bs_riverside"
+				"DisplayName"		"河边"
+			}
+			"3"
+			{
+				"Map"		"l4d_bs_valley_of_death"
+				"DisplayName"		"死亡之谷"
+			}
+			"4"
+			{
+				"Map"		"l4d_bs_barrage"
+				"DisplayName"		"河坝"
+			}
+			"5"
+			{
+				"Map"		"l4d_bs_bloodyfinale"
+				"DisplayName"		"逃亡"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_bs_mansion"
+				"DisplayName"		"大厦"
+			}
+		}
+	}
+	"17号城市v2.6"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_city17_01"
+				"DisplayName"		"地下道"
+			}
+			"2"
+			{
+				"Map"		"l4d_city17_02"
+				"DisplayName"		"回到地表"
+			}
+			"3"
+			{
+				"Map"		"l4d_city17_03"
+				"DisplayName"		"街道"
+			}
+			"4"
+			{
+				"Map"		"l4d_city17_04"
+				"DisplayName"		"医院"
+			}
+			"5"
+			{
+				"Map"		"l4d_city17_05"
+				"DisplayName"		"火车站"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_vs_city17_01"
+				"DisplayName"		"地下道"
+			}
+			"2"
+			{
+				"Map"		"l4d_vs_city17_02"
+				"DisplayName"		"回到地表"
+			}
+			"3"
+			{
+				"Map"		"l4d_vs_city17_03"
+				"DisplayName"		"街道"
+			}
+			"4"
+			{
+				"Map"		"l4d_vs_city17_04"
+				"DisplayName"		"医院"
+			}
+			"5"
+			{
+				"Map"		"l4d_vs_city17_05"
+				"DisplayName"		"火车站"
+			}
+		}
+	}
+	"血战矿区"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_coaldBlood01"
+				"DisplayName"		"蒸汽排气口"
+			}
+			"2"
+			{
+				"Map"		"l4d_coaldBlood02"
+				"DisplayName"		"裂隙"
+			}
+			"3"
+			{
+				"Map"		"l4d_coaldBlood03"
+				"DisplayName"		"电梯"
+			}
+			"4"
+			{
+				"Map"		"l4d_coaldBlood04"
+				"DisplayName"		"悬崖终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_coaldBlood01"
+				"DisplayName"		"蒸汽排气口"
+			}
+			"2"
+			{
+				"Map"		"l4d_coaldBlood02"
+				"DisplayName"		"裂隙"
+			}
+			"3"
+			{
+				"Map"		"l4d_coaldBlood03"
+				"DisplayName"		"电梯"
+			}
+			"4"
+			{
+				"Map"		"l4d_coaldBlood04_vs"
+				"DisplayName"		"悬崖终局"
+			}
+		}
+	}
+	"颤栗"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_coldfear01_smallforest"
+				"DisplayName"		"小树林"
+			}
+			"2"
+			{
+				"Map"		"l4d_coldfear02_factory"
+				"DisplayName"		"工厂"
+			}
+			"3"
+			{
+				"Map"		"l4d_coldfear03_officebuilding"
+				"DisplayName"		"写字楼"
+			}
+			"4"
+			{
+				"Map"		"l4d_coldfear04_roffs"
+				"DisplayName"		"屋顶"
+			}
+			"5"
+			{
+				"Map"		"l4d_coldfear05_docks"
+				"DisplayName"		"码头"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_coldfear01_smallforest"
+				"DisplayName"		"小树林"
+			}
+			"2"
+			{
+				"Map"		"l4d_coldfear02_factory"
+				"DisplayName"		"工厂"
+			}
+			"3"
+			{
+				"Map"		"l4d_coldfear03_officebuilding"
+				"DisplayName"		"写字楼"
+			}
+			"4"
+			{
+				"Map"		"l4d_coldfear04_roffs"
+				"DisplayName"		"屋顶"
+			}
+			"5"
+			{
+				"Map"		"l4d_coldfear05_docks_vs"
+				"DisplayName"		"码头"
+			}
+		}
+	}
+	"古惑狼"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_CrashBandicootCourse1"
+				"DisplayName"		"精神沙滩"
+			}
+			"2"
+			{
+				"Map"		"l4d_CrashBandicootCourse2"
+				"DisplayName"		"技术设备医生"
+			}
+			"3"
+			{
+				"Map"		"l4d_CrashBandicootCourse3"
+				"DisplayName"		"全球变暖"
+			}
+			"4"
+			{
+				"Map"		"l4d_CrashBandicootCourse4"
+				"DisplayName"		"蒂基蒙疯狂冒险"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_CrashBandicootVersus1"
+				"DisplayName"		"精神沙滩"
+			}
+			"2"
+			{
+				"Map"		"l4d_CrashBandicootVersus2"
+				"DisplayName"		"技术设备医生"
+			}
+			"3"
+			{
+				"Map"		"l4d_CrashBandicootVersus3"
+				"DisplayName"		"全球变暖"
+			}
+			"4"
+			{
+				"Map"		"l4d_CrashBandicootVersus4"
+				"DisplayName"		"蒂基蒙疯狂冒险"
+			}
+		}
+	}
+	"穿越边境"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_co_canal"
+				"DisplayName"		"运河"
+			}
+			"2"
+			{
+				"Map"		"l4d_co_church"
+				"DisplayName"		"教堂"
+			}
+			"3"
+			{
+				"Map"		"l4d_co_school"
+				"DisplayName"		"学校"
+			}
+			"4"
+			{
+				"Map"		"l4d_co_granary"
+				"DisplayName"		"谷仓"
+			}
+			"5"
+			{
+				"Map"		"l4d_co_bridge"
+				"DisplayName"		"大桥"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_co_Canal"
+				"DisplayName"		"运河"
+			}
+			"2"
+			{
+				"Map"		"l4d_co_Church"
+				"DisplayName"		"教堂"
+			}
+			"3"
+			{
+				"Map"		"l4d_co_school"
+				"DisplayName"		"学校"
+			}
+			"4"
+			{
+				"Map"		"l4d_co_granary"
+				"DisplayName"		"谷仓"
+			}
+			"5"
+			{
+				"Map"		"l4d_co_Bridge"
+				"DisplayName"		"大桥"
+			}
+		}
+	}
+	"大坝"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_damit01_orchard"
+				"DisplayName"		"果园"
+			}
+			"2"
+			{
+				"Map"		"l4d_damit02_campground"
+				"DisplayName"		"露营地"
+			}
+			"3"
+			{
+				"Map"		"l4d_damit03_dam"
+				"DisplayName"		"大坝"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_damit01_orchard"
+				"DisplayName"		"果园"
+			}
+			"2"
+			{
+				"Map"		"l4d_damit02_campground"
+				"DisplayName"		"露营地"
+			}
+			"3"
+			{
+				"Map"		"l4d_damit03_dam"
+				"DisplayName"		"大坝"
+			}
+		}
+	}
+	"暗血"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_darkblood01_tanker"
+				"DisplayName"		"油轮"
+			}
+			"2"
+			{
+				"Map"		"l4d_darkblood02_engine"
+				"DisplayName"		"油轮引擎"
+			}
+			"3"
+			{
+				"Map"		"l4d_darkblood03_platform"
+				"DisplayName"		"平台"
+			}
+			"4"
+			{
+				"Map"		"l4d_darkblood04_extraction"
+				"DisplayName"		"提取"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_darkblood01_tanker"
+				"DisplayName"		"油轮(对抗)"
+			}
+			"2"
+			{
+				"Map"		"l4d_darkblood02_engine"
+				"DisplayName"		"油轮引擎(对抗)"
+			}
+			"3"
+			{
+				"Map"		"l4d_darkblood03_platform"
+				"DisplayName"		"平台(对抗)"
+			}
+			"4"
+			{
+				"Map"		"l4d_darkblood04_extraction"
+				"DisplayName"		"提取(对抗)"
+			}
+		}
+	}
+	"活死人黎明"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_dbd_citylights"
+				"DisplayName"		"城市之光"
+			}
+			"2"
+			{
+				"Map"		"l4d_dbd_anna_is_gone"
+				"DisplayName"		"安娜走了"
+			}
+			"3"
+			{
+				"Map"		"l4d_dbd_the_mall"
+				"DisplayName"		"商场"
+			}
+			"4"
+			{
+				"Map"		"l4d_dbd_clean_up"
+				"DisplayName"		"大扫除"
+			}
+			"5"
+			{
+				"Map"		"l4d_dbd_new_dawn"
+				"DisplayName"		"新的黎明"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_dbd_citylights"
+				"DisplayName"		"城市之光"
+			}
+			"2"
+			{
+				"Map"		"l4d_dbd_anna_is_gone"
+				"DisplayName"		"安娜走了"
+			}
+			"3"
+			{
+				"Map"		"l4d_dbd_the_mall"
+				"DisplayName"		"商场"
+			}
+			"4"
+			{
+				"Map"		"l4d_dbd_clean_up"
+				"DisplayName"		"大扫除"
+			}
+			"5"
+			{
+				"Map"		"l4d_dbd_new_dawn"
+				"DisplayName"		"新的黎明"
+			}
+		}
+	}
+	"死亡街区1"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"shopcenter"
+				"DisplayName"		"购物中心"
+			}
+			"2"
+			{
+				"Map"		"streets"
+				"DisplayName"		"街道"
+			}
+			"3"
+			{
+				"Map"		"centralsquare"
+				"DisplayName"		"中心广场"
+			}
+			"4"
+			{
+				"Map"		"urban"
+				"DisplayName"		"都市"
+			}
+			"5"
+			{
+				"Map"		"school"
+				"DisplayName"		"学校"
+			}
+		}
+	}
+	"死亡街区2"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"ds2_1"
+				"DisplayName"		"尾崎娜娜"
+			}
+			"2"
+			{
+				"Map"		"ds2_2"
+				"DisplayName"		"花朵"
+			}
+			"3"
+			{
+				"Map"		"ds2_3"
+				"DisplayName"		"丰瑞"
+			}
+			"4"
+			{
+				"Map"		"ds2_4"
+				"DisplayName"		"永旺皲裂"
+			}
+			"5"
+			{
+				"Map"		"ds2_5"
+				"DisplayName"		"愿望大师"
+			}
+		}
+	}
+	"静寂时分前传V1.1"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_airport01_wharf"
+				"DisplayName"		"码头/Wharf"
+			}
+		}
+	}
+	"死亡之城"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_deadcity01_riverside"
+				"DisplayName"		"河边市"
+			}
+			"2"
+			{
+				"Map"		"l4d_deadcity02_backalley"
+				"DisplayName"		"背街小巷"
+			}
+			"3"
+			{
+				"Map"		"l4d_deadcity03_bridge"
+				"DisplayName"		"吊桥"
+			}
+			"4"
+			{
+				"Map"		"l4d_deadcity04_outpost"
+				"DisplayName"		"屯堡"
+			}
+			"5"
+			{
+				"Map"		"l4d_deadcity05_plant"
+				"DisplayName"		"水生植物"
+			}
+			"6"
+			{
+				"Map"		"l4d_deadcity06_station"
+				"DisplayName"		"地铁站"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_deadcity01_riverside"
+				"DisplayName"		"河边市"
+			}
+			"2"
+			{
+				"Map"		"l4d_deadcity02_backalley"
+				"DisplayName"		"背街小巷"
+			}
+			"3"
+			{
+				"Map"		"l4d_deadcity03_bridge"
+				"DisplayName"		"吊桥"
+			}
+			"4"
+			{
+				"Map"		"l4d_deadcity04_outpost"
+				"DisplayName"		"屯堡"
+			}
+			"5"
+			{
+				"Map"		"l4d_deadcity05_plant"
+				"DisplayName"		"水生植物"
+			}
+			"6"
+			{
+				"Map"		"l4d_deadcity06_station"
+				"DisplayName"		"地铁站"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_dcc02_backalley"
+				"DisplayName"		"背街小巷"
+			}
+			"2"
+			{
+				"Map"		"l4d_dcc03_bridge"
+				"DisplayName"		"吊桥"
+			}
+			"3"
+			{
+				"Map"		"l4d_dcc05_station"
+				"DisplayName"		"地铁站"
+			}
+		}
+	}
+	"大限将至"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"apartment"
+				"DisplayName"		"公寓"
+			}
+			"2"
+			{
+				"Map"		"hotel"
+				"DisplayName"		"旅馆"
+			}
+			"3"
+			{
+				"Map"		"station-a"
+				"DisplayName"		"火车站"
+			}
+			"4"
+			{
+				"Map"		"station"
+				"DisplayName"		"终局"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"station"
+				"DisplayName"		"火车站"
+			}
+		}
+	}
+	"死亡假期"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"hotel01_market1"
+				"DisplayName"		"干涸的县城"
+			}
+			"2"
+			{
+				"Map"		"hotel02_sewer1"
+				"DisplayName"		"咆哮的管道"
+			}
+			"3"
+			{
+				"Map"		"hotel03_ramsey1"
+				"DisplayName"		"沸沸扬扬的酒店"
+			}
+			"4"
+			{
+				"Map"		"hotel04_scaling1"
+				"DisplayName"		"放缩酒店"
+			}
+			"5"
+			{
+				"Map"		"hotel05_rooftop1"
+				"DisplayName"		"崩溃"
+			}
+		}
+	}
+	"死区327"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_deadzone_rural_01"
+				"DisplayName"		"乡村"
+			}
+			"2"
+			{
+				"Map"		"l4d_deadzone_jail_02"
+				"DisplayName"		"监狱"
+			}
+			"3"
+			{
+				"Map"		"l4d_deadzone_urban_03"
+				"DisplayName"		"都市"
+			}
+			"4"
+			{
+				"Map"		"l4d_deadzone_museum_04"
+				"DisplayName"		"博物馆"
+			}
+		}
+	}
+	"幽灵船v8.0"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_deathaboard01_prison"
+				"DisplayName"		"监狱"
+			}
+			"2"
+			{
+				"Map"		"l4d_deathaboard02_yard"
+				"DisplayName"		"监狱院子"
+			}
+			"3"
+			{
+				"Map"		"l4d_deathaboard03_docks"
+				"DisplayName"		"码头"
+			}
+			"4"
+			{
+				"Map"		"l4d_deathaboard04_ship"
+				"DisplayName"		"船"
+			}
+			"5"
+			{
+				"Map"		"l4d_deathaboard05_light"
+				"DisplayName"		"灯塔"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_deathaboard01_prison"
+				"DisplayName"		"监狱"
+			}
+			"2"
+			{
+				"Map"		"l4d_deathaboard02_yard"
+				"DisplayName"		"监狱院子"
+			}
+			"3"
+			{
+				"Map"		"l4d_deathaboard03_docks"
+				"DisplayName"		"码头"
+			}
+			"4"
+			{
+				"Map"		"l4d_deathaboard04_ship"
+				"DisplayName"		"船"
+			}
+			"5"
+			{
+				"Map"		"l4d_deathaboard05_light"
+				"DisplayName"		"灯塔"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_sv_deathaboard_ship"
+				"DisplayName"		"船"
+			}
+			"2"
+			{
+				"Map"		"l4d_deathaboard05_light"
+				"DisplayName"		"灯塔"
+			}
+		}
+	}
+	"我的世界"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"deathcraft_01_town"
+				"DisplayName"		"城镇"
+			}
+			"2"
+			{
+				"Map"		"deathcraft_02_ravine2"
+				"DisplayName"		"熔岩湖峡谷"
+			}
+			"3"
+			{
+				"Map"		"deathcraft_03_stronghold"
+				"DisplayName"		"大本营"
+			}
+			"4"
+			{
+				"Map"		"deathcraft_04_nether"
+				"DisplayName"		"下界要塞"
+			}
+			"5"
+			{
+				"Map"		"deathcraft_05_lighthouse2"
+				"DisplayName"		"菌丝体岛"
+			}
+		}
+	}
+	"死亡厕所v1.5"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"deathttoiletmaze1"
+				"DisplayName"		"水管迷宫"
+			}
+			"2"
+			{
+				"Map"		"deathttoiletmaze2"
+				"DisplayName"		"电力"
+			}
+			"3"
+			{
+				"Map"		"deathttoiletmaze3"
+				"DisplayName"		"希望"
+			}
+			"4"
+			{
+				"Map"		"deathttoiletmaze4"
+				"DisplayName"		"陷阱"
+			}
+			"5"
+			{
+				"Map"		"deathttoiletmaze5"
+				"DisplayName"		"疏通"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"deathttoiletmazeturret"
+				"DisplayName"		"炮塔防御"
+			}
+		}
+	}
+	"出轨"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_derailed_highway3ver"
+				"DisplayName"		"混乱高速路"
+			}
+			"2"
+			{
+				"Map"		"l4d_derailed_boat3ver"
+				"DisplayName"		"死亡之河"
+			}
+			"3"
+			{
+				"Map"		"l4d_derailed_wreckage3ver"
+				"DisplayName"		"飞机残骸"
+			}
+			"4"
+			{
+				"Map"		"l4d_derailed_finale3ver"
+				"DisplayName"		"英雄"
+			}
+		}
+	}
+	"毫不留情重制版"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"ft_m1_apartments_08_a"
+				"DisplayName"		"公寓"
+			}
+			"2"
+			{
+				"Map"		"ft_m2_subway_08_a"
+				"DisplayName"		"地铁"
+			}
+			"3"
+			{
+				"Map"		"ft_m3_sewers_08_b"
+				"DisplayName"		"下水道"
+			}
+			"4"
+			{
+				"Map"		"ft_m4_hospital_08_a"
+				"DisplayName"		"医院"
+			}
+			"5"
+			{
+				"Map"		"ft_m5_rooftop_08_a"
+				"DisplayName"		"屋顶"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"ft_m1_apartments_08_a"
+				"DisplayName"		"公寓"
+			}
+			"2"
+			{
+				"Map"		"ft_m2_subway_08_a"
+				"DisplayName"		"地铁"
+			}
+			"3"
+			{
+				"Map"		"ft_m3_sewers_08_b"
+				"DisplayName"		"下水道"
+			}
+			"4"
+			{
+				"Map"		"ft_m4_hospital_08_a"
+				"DisplayName"		"医院"
+			}
+			"5"
+			{
+				"Map"		"ft_m5_rooftop_08_a"
+				"DisplayName"		"屋顶"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"ft_sv_streets"
+				"DisplayName"		"街道"
+			}
+			"2"
+			{
+				"Map"		"ft_sv_warehouse"
+				"DisplayName"		"仓库"
+			}
+		}
+	}
+	"死亡回声"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_de01_sewers"
+				"DisplayName"		"地下道"
+			}
+			"2"
+			{
+				"Map"		"l4d_de02_hotel"
+				"DisplayName"		"旅馆"
+			}
+			"3"
+			{
+				"Map"		"l4d_de03_store"
+				"DisplayName"		"超市"
+			}
+			"4"
+			{
+				"Map"		"l4d_de04_woods"
+				"DisplayName"		"森林"
+			}
+			"5"
+			{
+				"Map"		"l4d_de05_echo"
+				"DisplayName"		"回波基地"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_de01_sewers"
+				"DisplayName"		"地下道"
+			}
+			"2"
+			{
+				"Map"		"l4d_de02_hotel"
+				"DisplayName"		"旅馆"
+			}
+			"3"
+			{
+				"Map"		"l4d_de03_store"
+				"DisplayName"		"超市"
+			}
+			"4"
+			{
+				"Map"		"l4d_de04_woods"
+				"DisplayName"		"森林"
+			}
+			"5"
+			{
+				"Map"		"l4d_de05_echo"
+				"DisplayName"		"回波基地"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_de01_sewers"
+				"DisplayName"		"地下道"
+			}
+			"2"
+			{
+				"Map"		"l4d_de02_hotel"
+				"DisplayName"		"旅馆"
+			}
+			"3"
+			{
+				"Map"		"l4d_de03_store"
+				"DisplayName"		"超市"
+			}
+			"4"
+			{
+				"Map"		"l4d_de04_woods"
+				"DisplayName"		"超市"
+			}
+			"5"
+			{
+				"Map"		"l4d_de05_echo"
+				"DisplayName"		"回波基地"
+			}
+		}
+	}
+	"坠落v0.94"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_fallen01_approach"
+				"DisplayName"		"接近"
+			}
+			"2"
+			{
+				"Map"		"l4d_fallen02_trenches"
+				"DisplayName"		"战壕"
+			}
+			"3"
+			{
+				"Map"		"l4d_fallen03_tower"
+				"DisplayName"		"塔"
+			}
+			"4"
+			{
+				"Map"		"l4d_fallen04_cliff"
+				"DisplayName"		"悬崖"
+			}
+			"5"
+			{
+				"Map"		"l4d_fallen05_shaft"
+				"DisplayName"		"竖井"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_fallen01_approach"
+				"DisplayName"		"接近"
+			}
+			"2"
+			{
+				"Map"		"l4d_fallen02_trenches"
+				"DisplayName"		"战壕"
+			}
+			"3"
+			{
+				"Map"		"l4d_fallen03_tower"
+				"DisplayName"		"塔"
+			}
+			"4"
+			{
+				"Map"		"l4d_fallen04_cliff"
+				"DisplayName"		"悬崖"
+			}
+			"5"
+			{
+				"Map"		"l4d_fallen05_shaft"
+				"DisplayName"		"竖井"
+			}
+		}
+	}
+	"遍地坟墓"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_grave_city"
+				"DisplayName"		"逃离城镇"
+			}
+			"2"
+			{
+				"Map"		"l4d_grave_mall"
+				"DisplayName"		"购物疗法"
+			}
+			"3"
+			{
+				"Map"		"l4d_grave_sewers"
+				"DisplayName"		"地底探险"
+			}
+			"4"
+			{
+				"Map"		"l4d_grave_factory"
+				"DisplayName"		"工业事故"
+			}
+			"5"
+			{
+				"Map"		"l4d_grave_outside"
+				"DisplayName"		"起源?"
+			}
+			"6"
+			{
+				"Map"		"l4d_grave_rural"
+				"DisplayName"		"乡镇逃离"
+			}
+			"7"
+			{
+				"Map"		"l4d_grave_prison"
+				"DisplayName"		"越狱"
+			}
+			"8"
+			{
+				"Map"		"l4d_grave_station"
+				"DisplayName"		"贝西搭乘"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_grave_city"
+				"DisplayName"		"逃离城镇"
+			}
+			"2"
+			{
+				"Map"		"l4d_grave_mall"
+				"DisplayName"		"购物疗法"
+			}
+			"3"
+			{
+				"Map"		"l4d_grave_sewers"
+				"DisplayName"		"地底探险"
+			}
+			"4"
+			{
+				"Map"		"l4d_grave_factory"
+				"DisplayName"		"工业事故"
+			}
+			"5"
+			{
+				"Map"		"l4d_grave_outside"
+				"DisplayName"		"起源?"
+			}
+			"6"
+			{
+				"Map"		"l4d_grave_rural"
+				"DisplayName"		"乡镇逃离"
+			}
+			"7"
+			{
+				"Map"		"l4d_grave_prison"
+				"DisplayName"		"越狱"
+			}
+			"8"
+			{
+				"Map"		"l4d_grave_station"
+				"DisplayName"		"贝西搭乘"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_grave_mall"
+				"DisplayName"		"汽车站"
+			}
+			"2"
+			{
+				"Map"		"l4d_grave_factory"
+				"DisplayName"		"装卸场"
+			}
+			"3"
+			{
+				"Map"		"l4d_grave_rural"
+				"DisplayName"		"桥"
+			}
+			"4"
+			{
+				"Map"		"l4d_grave_station"
+				"DisplayName"		"火车站"
+			}
+		}
+	}
+	"天堂可待"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"AirCrash"
+				"DisplayName"		"空难"
+			}
+			"2"
+			{
+				"Map"		"RiverMotel"
+				"DisplayName"		"河边汽车旅馆"
+			}
+			"3"
+			{
+				"Map"		"OutSkirts"
+				"DisplayName"		"郊区"
+			}
+			"4"
+			{
+				"Map"		"CityHall"
+				"DisplayName"		"市政大厅"
+			}
+			"5"
+			{
+				"Map"		"BombShelter"
+				"DisplayName"		"防空洞"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"AirCrash"
+				"DisplayName"		"空难"
+			}
+			"2"
+			{
+				"Map"		"RiverMotel"
+				"DisplayName"		"河边汽车旅馆"
+			}
+			"3"
+			{
+				"Map"		"OutSkirts"
+				"DisplayName"		"郊区"
+			}
+			"4"
+			{
+				"Map"		"CityHall"
+				"DisplayName"		"市政大厅"
+			}
+			"5"
+			{
+				"Map"		"BombShelter"
+				"DisplayName"		"防空洞"
+			}
+		}
+	}
+	"我恨山"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_ihm01_forest"
+				"DisplayName"		"迷失在森林中"
+			}
+			"2"
+			{
+				"Map"		"l4d_ihm02_manor"
+				"DisplayName"		"爬上庄园"
+			}
+			"3"
+			{
+				"Map"		"l4d_ihm03_underground"
+				"DisplayName"		"地下通道"
+			}
+			"4"
+			{
+				"Map"		"l4d_ihm04_lumberyard"
+				"DisplayName"		"贮木场疏散"
+			}
+			"5"
+			{
+				"Map"		"l4d_ihm05_lakeside"
+				"DisplayName"		"湖边终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_ihm01_forest"
+				"DisplayName"		"迷失在森林中"
+			}
+			"2"
+			{
+				"Map"		"l4d_ihm02_manor"
+				"DisplayName"		"爬上庄园"
+			}
+			"3"
+			{
+				"Map"		"l4d_ihm03_underground"
+				"DisplayName"		"地下通道"
+			}
+			"4"
+			{
+				"Map"		"l4d_ihm04_lumberyard"
+				"DisplayName"		"贮木场疏散"
+			}
+			"5"
+			{
+				"Map"		"l4d_ihm05_lakeside"
+				"DisplayName"		"湖边终局"
+			}
+		}
+	}
+	"活死人之城"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_ilogiccity_01"
+				"DisplayName"		"基督之城"
+			}
+			"2"
+			{
+				"Map"		"l4d_ilogiccity_02"
+				"DisplayName"		"倒塌之城"
+			}
+			"3"
+			{
+				"Map"		"l4d_ilogiccity_03"
+				"DisplayName"		"交叉之城"
+			}
+			"4"
+			{
+				"Map"		"l4d_ilogiccity_04"
+				"DisplayName"		"逻辑终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_ilogiccity_01"
+				"DisplayName"		"基督之城"
+			}
+			"2"
+			{
+				"Map"		"l4d_ilogiccity_02"
+				"DisplayName"		"倒塌之城"
+			}
+			"3"
+			{
+				"Map"		"l4d_ilogiccity_03"
+				"DisplayName"		"交叉之城"
+			}
+			"4"
+			{
+				"Map"		"l4d_ilogiccity_04"
+				"DisplayName"		"逻辑终局"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_sv_church_01"
+				"DisplayName"		"Ilogic church"
+			}
+			"2"
+			{
+				"Map"		"l4d_sv_vinosv3"
+				"DisplayName"		"Ilogic restaurant"
+			}
+		}
+	}
+	"但丁地狱v4.1"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_hell_bill"
+				"DisplayName"		"比尔之魂"
+			}
+			"2"
+			{
+				"Map"		"l4d_hell_zoey"
+				"DisplayName"		"昏迷"
+			}
+		}
+	}
+	"149"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_149_1"
+				"DisplayName"		"丧尸黎明"
+			}
+			"2"
+			{
+				"Map"		"l4d_149_2"
+				"DisplayName"		"烈血英雄"
+			}
+			"3"
+			{
+				"Map"		"l4d_149_3"
+				"DisplayName"		"死亡月光"
+			}
+			"4"
+			{
+				"Map"		"l4d_149_4"
+				"DisplayName"		"火灾隐患"
+			}
+			"5"
+			{
+				"Map"		"l4d_149_5"
+				"DisplayName"		"坟墓"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_149_1"
+				"DisplayName"		"丧尸黎明"
+			}
+			"2"
+			{
+				"Map"		"l4d_149_2"
+				"DisplayName"		"烈血英雄"
+			}
+			"3"
+			{
+				"Map"		"l4d_149_3"
+				"DisplayName"		"死亡月光"
+			}
+			"4"
+			{
+				"Map"		"l4d_149_4"
+				"DisplayName"		"火灾隐患"
+			}
+			"5"
+			{
+				"Map"		"l4d_149_5"
+				"DisplayName"		"坟墓"
+			}
+		}
+	}
+	"奥本计划"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_auburn"
+				"DisplayName"		"贫民窟"
+			}
+			"2"
+			{
+				"Map"		"l4d_auburn_2"
+				"DisplayName"		"南河处理厂"
+			}
+			"3"
+			{
+				"Map"		"l4d_auburn_3"
+				"DisplayName"		"在下面"
+			}
+			"4"
+			{
+				"Map"		"l4d_auburn_Finale"
+				"DisplayName"		"建筑工地终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_auburn"
+				"DisplayName"		"贫民窟"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_auburn"
+				"DisplayName"		"贫民窟"
+			}
+		}
+	}
+	"24号实验室"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d2_lab024_01"
+				"DisplayName"		"森林"
+			}
+			"2"
+			{
+				"Map"		"l4d2_lab024_02"
+				"DisplayName"		"煤矿"
+			}
+			"3"
+			{
+				"Map"		"l4d2_lab024_03"
+				"DisplayName"		"实验室"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d2_lab024_01"
+				"DisplayName"		"森林 (VS)"
+			}
+			"2"
+			{
+				"Map"		"l4d2_lab024_02"
+				"DisplayName"		"煤矿 (VS)"
+			}
+			"3"
+			{
+				"Map"		"l4d2_lab024_03"
+				"DisplayName"		"实验室 (VS)"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d2_lab024_03"
+				"DisplayName"		"城镇生存"
+			}
+		}
+	}
+	"飞跃2012"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"Caged"
+				"DisplayName"		"监狱"
+			}
+			"2"
+			{
+				"Map"		"Leap"
+				"DisplayName"		"飞跃"
+			}
+			"3"
+			{
+				"Map"		"barrels_o_fun"
+				"DisplayName"		"滚筒"
+			}
+			"4"
+			{
+				"Map"		"helping_hand"
+				"DisplayName"		"体育场2012"
+			}
+		}
+	}
+	"怪物绞肉机"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_mill01_offices"
+				"DisplayName"		"办公室"
+			}
+			"2"
+			{
+				"Map"		"l4d_mill02_shelter1"
+				"DisplayName"		"庇护所"
+			}
+			"3"
+			{
+				"Map"		"l4d_mill03_shelter2"
+				"DisplayName"		"转向"
+			}
+			"4"
+			{
+				"Map"		"l4d_mill04_woods"
+				"DisplayName"		"道路"
+			}
+			"5"
+			{
+				"Map"		"l4d_mill05_station"
+				"DisplayName"		"车站终局"
+			}
+		}
+	}
+	"感染大阪"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_naniwa01_shoppingmall"
+				"DisplayName"		"购物中心"
+			}
+			"2"
+			{
+				"Map"		"l4d_naniwa02_arcade"
+				"DisplayName"		"拱廊"
+			}
+			"3"
+			{
+				"Map"		"l4d_naniwa03_highway"
+				"DisplayName"		"高速路"
+			}
+			"4"
+			{
+				"Map"		"l4d_naniwa04_subway"
+				"DisplayName"		"地铁"
+			}
+			"5"
+			{
+				"Map"		"l4d_naniwa05_tower"
+				"DisplayName"		"塔楼"
+			}
+		}
+	}
+	"夜惊"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_nt01_mansion"
+				"DisplayName"		"封锁"
+			}
+			"2"
+			{
+				"Map"		"l4d_nt02_haunts"
+				"DisplayName"		"幽灵鬼屋"
+			}
+			"3"
+			{
+				"Map"		"l4d_nt03_moria"
+				"DisplayName"		"莫利亚"
+			}
+			"4"
+			{
+				"Map"		"l4d_nt04_jungleruins"
+				"DisplayName"		"丛林废墟"
+			}
+			"5"
+			{
+				"Map"		"l4d_nt05_wake"
+				"DisplayName"		"苏醒"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_nt01_mansion"
+				"DisplayName"		"封锁 vs"
+			}
+			"2"
+			{
+				"Map"		"l4d_nt02_haunts"
+				"DisplayName"		"幽灵鬼屋 vs"
+			}
+			"3"
+			{
+				"Map"		"l4d_nt03_moria"
+				"DisplayName"		"莫利亚 vs"
+			}
+			"4"
+			{
+				"Map"		"l4d_vs_nt04_jungleruins"
+				"DisplayName"		"丛林废墟 vs"
+			}
+			"5"
+			{
+				"Map"		"l4d_nt05_wake"
+				"DisplayName"		"苏醒 vs"
+			}
+		}
+	}
+	"堡垒"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_noe1"
+				"DisplayName"		"入口"
+			}
+			"2"
+			{
+				"Map"		"l4d_noe2"
+				"DisplayName"		"卫生间"
+			}
+			"3"
+			{
+				"Map"		"l4d_noe3"
+				"DisplayName"		"屋顶终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_noe1"
+				"DisplayName"		"入口"
+			}
+			"2"
+			{
+				"Map"		"l4d_noe2"
+				"DisplayName"		"卫生间"
+			}
+			"3"
+			{
+				"Map"		"l4d_noe3"
+				"DisplayName"		"屋顶终局"
+			}
+		}
+	}
+	"84区"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_noprecinct01_crash"
+				"DisplayName"		"空难"
+			}
+			"2"
+			{
+				"Map"		"l4d_noprecinct02_train"
+				"DisplayName"		"贫民窟"
+			}
+			"3"
+			{
+				"Map"		"l4d_noprecinct03_clubd"
+				"DisplayName"		"晚间俱乐部"
+			}
+			"4"
+			{
+				"Map"		"l4d_noprecinct04_precinct"
+				"DisplayName"		"加油站终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_noprecinct01_crash"
+				"DisplayName"		"空难"
+			}
+			"2"
+			{
+				"Map"		"l4d_noprecinct02_train"
+				"DisplayName"		"贫民窟"
+			}
+			"3"
+			{
+				"Map"		"l4d_noprecinct03_clubd"
+				"DisplayName"		"晚间俱乐部"
+			}
+			"4"
+			{
+				"Map"		"l4d_noprecinct04_precinct"
+				"DisplayName"		"加油站终局"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_noprecinct01_crash"
+				"DisplayName"		"Twilight Apartment"
+			}
+			"2"
+			{
+				"Map"		"l4d_noprecinct03_clubd"
+				"DisplayName"		"Chicago Ted Guns"
+			}
+		}
+	}
+	"血橙"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_orange01_first"
+				"DisplayName"		"城市"
+			}
+			"2"
+			{
+				"Map"		"l4d_orange02_second"
+				"DisplayName"		"城堡"
+			}
+			"3"
+			{
+				"Map"		"l4d_orange03_third"
+				"DisplayName"		"悬崖"
+			}
+			"4"
+			{
+				"Map"		"l4d_orange04_fourth"
+				"DisplayName"		"船"
+			}
+			"5"
+			{
+				"Map"		"l4d_orange05_fifth"
+				"DisplayName"		"碟"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_orange01_first"
+				"DisplayName"		"城市"
+			}
+			"2"
+			{
+				"Map"		"l4d_orange02_second"
+				"DisplayName"		"城堡"
+			}
+			"3"
+			{
+				"Map"		"l4d_orange03_third"
+				"DisplayName"		"悬崖"
+			}
+			"4"
+			{
+				"Map"		"l4d_orange04_fourth"
+				"DisplayName"		"船"
+			}
+			"5"
+			{
+				"Map"		"l4d_orange05_fifth"
+				"DisplayName"		"碟"
+			}
+		}
+	}
+	"平顶山研究所"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_pbmesa01_surface"
+				"DisplayName"		"表面细节"
+			}
+			"2"
+			{
+				"Map"		"l4d_pbmesa02_shafted"
+				"DisplayName"		"传动轴"
+			}
+			"3"
+			{
+				"Map"		"l4d_pbmesa03_office"
+				"DisplayName"		"办公室"
+			}
+			"4"
+			{
+				"Map"		"l4d_pbmesa04_pointinsert"
+				"DisplayName"		"插入点"
+			}
+			"5"
+			{
+				"Map"		"l4d_pbmesa05_returntoxen"
+				"DisplayName"		"核心"
+			}
+			"6"
+			{
+				"Map"		"l4d_pbmesa06_xen"
+				"DisplayName"		"陌生的"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_pbmesa01_surface"
+				"DisplayName"		"表面细节"
+			}
+			"2"
+			{
+				"Map"		"l4d_pbmesa02_shafted"
+				"DisplayName"		"传动轴"
+			}
+			"3"
+			{
+				"Map"		"l4d_pbmesa03_office"
+				"DisplayName"		"办公室"
+			}
+			"4"
+			{
+				"Map"		"l4d_pbmesa04_pointinsert"
+				"DisplayName"		"插入点"
+			}
+			"5"
+			{
+				"Map"		"l4d_pbmesa05_returntoxen"
+				"DisplayName"		"核心"
+			}
+			"6"
+			{
+				"Map"		"l4d_pbmesa06_xen"
+				"DisplayName"		"陌生的"
+			}
+		}
+	}
+	"地下发电厂"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_powerstation_utg_01"
+				"DisplayName"		"第一章"
+			}
+			"2"
+			{
+				"Map"		"l4d_powerstation_utg_02"
+				"DisplayName"		"第二章"
+			}
+			"3"
+			{
+				"Map"		"l4d_powerstation_utg_03"
+				"DisplayName"		"第三章"
+			}
+			"4"
+			{
+				"Map"		"l4d_powerstation_utg_04"
+				"DisplayName"		"第四章"
+			}
+			"5"
+			{
+				"Map"		"l4d_powerstation_utg_05"
+				"DisplayName"		"第五章"
+			}
+		}
+	}
+	"别去莱温霍姆"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_ravenholmwar_1"
+				"DisplayName"		"欢饮来到莱温霍姆"
+			}
+			"2"
+			{
+				"Map"		"l4d_ravenholmwar_2"
+				"DisplayName"		"街道"
+			}
+			"3"
+			{
+				"Map"		"l4d_ravenholmwar_3"
+				"DisplayName"		"矿井"
+			}
+			"4"
+			{
+				"Map"		"l4d_ravenholmwar_4"
+				"DisplayName"		"火车停车场"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_ravenholmwar_1"
+				"DisplayName"		"欢饮来到莱温霍姆 (VS)"
+			}
+			"2"
+			{
+				"Map"		"l4d_ravenholmwar_2"
+				"DisplayName"		"街道 (VS)"
+			}
+			"3"
+			{
+				"Map"		"l4d_ravenholmwar_3"
+				"DisplayName"		"矿井 (VS)"
+			}
+			"4"
+			{
+				"Map"		"l4d_ravenholmwar_4"
+				"DisplayName"		"火车停车场 (VS)"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_ravenholmwar_sv"
+				"DisplayName"		"城市广场"
+			}
+			"2"
+			{
+				"Map"		"l4d_ravenholmwar_4"
+				"DisplayName"		"火车停车场"
+			}
+		}
+	}
+	"赎罪(BETA 2.2)"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"redemption-plantworks"
+				"DisplayName"		"掩盖真相"
+			}
+			"2"
+			{
+				"Map"		"redemption-ceda-pt1"
+				"DisplayName"		"深入探究"
+			}
+			"3"
+			{
+				"Map"		"redemption-ceda-pt2"
+				"DisplayName"		"真相"
+			}
+			"4"
+			{
+				"Map"		"redemption-roundhouse"
+				"DisplayName"		"逃离"
+			}
+		}
+	}
+	"寂静恐慌v1.0"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"silentfear"
+				"DisplayName"		"寂静恐慌"
+			}
+		}
+	}
+	"星际之门SG4"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"potc1"
+				"DisplayName"		"夏延山建筑群"
+			}
+			"2"
+			{
+				"Map"		"potc2"
+				"DisplayName"		"星门指挥中心"
+			}
+			"3"
+			{
+				"Map"		"potc3b"
+				"DisplayName"		"返回"
+			}
+			"4"
+			{
+				"Map"		"potc3"
+				"DisplayName"		"发现人工制品"
+			}
+			"5"
+			{
+				"Map"		"potc4"
+				"DisplayName"		"传染源"
+			}
+		}
+	}
+	"困境"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_Stranded01_chopper_down"
+				"DisplayName"		"砍倒"
+			}
+			"2"
+			{
+				"Map"		"l4d_Stranded02_workshop"
+				"DisplayName"		"作坊"
+			}
+			"3"
+			{
+				"Map"		"l4d_Stranded03_train_station"
+				"DisplayName"		"火车站"
+			}
+			"4"
+			{
+				"Map"		"l4d_Stranded04_garage"
+				"DisplayName"		"车库"
+			}
+			"5"
+			{
+				"Map"		"l4d_Stranded05_park_final"
+				"DisplayName"		"停车场终局"
+			}
+		}
+	}
+	"雷霆万钧"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_stadium1_apartment"
+				"DisplayName"		"公寓"
+			}
+			"2"
+			{
+				"Map"		"l4d_stadium2_underground"
+				"DisplayName"		"地下"
+			}
+			"3"
+			{
+				"Map"		"l4d_stadium3_city1"
+				"DisplayName"		"法庭"
+			}
+			"4"
+			{
+				"Map"		"l4d_stadium4_city2"
+				"DisplayName"		"城市"
+			}
+			"5"
+			{
+				"Map"		"l4d_stadium5_stadium"
+				"DisplayName"		"球场终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_vs_stadium1_apartment"
+				"DisplayName"		"公寓"
+			}
+			"2"
+			{
+				"Map"		"l4d_vs_stadium2_underground"
+				"DisplayName"		"地下"
+			}
+			"3"
+			{
+				"Map"		"l4d_vs_stadium3_city1"
+				"DisplayName"		"法庭"
+			}
+			"4"
+			{
+				"Map"		"l4d_vs_stadium4_city2"
+				"DisplayName"		"城市"
+			}
+			"5"
+			{
+				"Map"		"l4d_vs_stadium5_stadium"
+				"DisplayName"		"球场终局"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_sv_stadium2_underground"
+				"DisplayName"		"地下"
+			}
+			"2"
+			{
+				"Map"		"l4d_sv_stadium3_city1"
+				"DisplayName"		"法庭"
+			}
+			"3"
+			{
+				"Map"		"l4d_sv_stadium4_city2"
+				"DisplayName"		"城市"
+			}
+			"4"
+			{
+				"Map"		"l4d_stadium5_stadium"
+				"DisplayName"		"球场"
+			}
+		}
+	}
+	"维也纳的呼唤v1.1"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_viennacalling_city"
+				"DisplayName"		"内城区"
+			}
+			"2"
+			{
+				"Map"		"l4d_viennacalling_kaiserfranz"
+				"DisplayName"		"火车站"
+			}
+			"3"
+			{
+				"Map"		"l4d_viennacalling_gloomy"
+				"DisplayName"		"坚果村庄"
+			}
+			"4"
+			{
+				"Map"		"l4d_viennacalling_donauinsel"
+				"DisplayName"		"多瑙島"
+			}
+			"5"
+			{
+				"Map"		"l4d_viennacalling_donauturm"
+				"DisplayName"		"多瑙河塔"
+			}
+		}
+	}
+	"异种"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"ld_cryodragoon_4_3"
+				"DisplayName"		"找寻阳光"
+			}
+			"2"
+			{
+				"Map"		"ld_ricken_5_5"
+				"DisplayName"		"里肯巴克"
+			}
+			"3"
+			{
+				"Map"		"ld_cryosect_4_2"
+				"DisplayName"		"冷冻切片"
+			}
+		}
+	}
+	"必死无疑"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map"		"l4d_doom0001_base"
+				"DisplayName"		"自由太远"
+			}
+			"2"
+			{
+				"Map"		"l4d_doom02_wall"
+				"DisplayName"		"越狱"
+			}
+			"3"
+			{
+				"Map"		"l4d_doom03_ballroom"
+				"DisplayName"		"湖屋终局"
+			}
+		}
+		"versus"
+		{
+			"1"
+			{
+				"Map"		"l4d_doom0001_base"
+				"DisplayName"		"自由太远"
+			}
+			"2"
+			{
+				"Map"		"l4d_doom02_wall"
+				"DisplayName"		"越狱"
+			}
+			"3"
+			{
+				"Map"		"l4d_doom03_ballroom"
+				"DisplayName"		"湖屋终局"
+			}
+		}
+		"survival"
+		{
+			"1"
+			{
+				"Map"		"l4d_doom03_survival"
+				"DisplayName"		"湖屋终局"
+			}
+		}
+	}
+}

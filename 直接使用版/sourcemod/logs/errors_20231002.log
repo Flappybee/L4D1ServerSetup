@@ -1,0 +1,233 @@
+L 10/02/2023 - 03:10:43: SourceMod error session started
+L 10/02/2023 - 03:10:43: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:10:43: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 10/02/2023 - 03:11:00: Error log file session closed.
+L 10/02/2023 - 03:14:39: SourceMod error session started
+L 10/02/2023 - 03:14:39: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:14:39: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 10/02/2023 - 03:14:57: Error log file session closed.
+L 10/02/2023 - 03:35:01: SourceMod error session started
+L 10/02/2023 - 03:35:01: Info (map "l4d_river03_port") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:35:01: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 03:35:01: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:35:01: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:35:01: [SM] Fatal error encountered parsing translation file "MapChanger.phrases.txt"
+L 10/02/2023 - 03:35:01: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:35:02: [SM] Exception reported: Failed to open file: "addons/sourcemod/data/mapchanger_vote_block.txt". You are missing at installing!
+L 10/02/2023 - 03:35:02: [SM] Blaming: MapChanger.smx
+L 10/02/2023 - 03:35:02: [SM] Call stack trace:
+L 10/02/2023 - 03:35:02: [SM]   [0] SetFailState
+L 10/02/2023 - 03:35:02: [SM]   [1] Line 471, vip_core::ReadFileToArrayList
+L 10/02/2023 - 03:35:02: [SM]   [2] Line 497, vip_core::OnMapStart
+L 10/02/2023 - 03:41:16: Error log file session closed.
+L 10/02/2023 - 03:41:16: SourceMod error session started
+L 10/02/2023 - 03:41:16: Info (map "l4d_river03_port") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:41:16: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:41:16: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:41:16: [SM] Fatal error encountered parsing translation file "MapChanger.phrases.txt"
+L 10/02/2023 - 03:41:16: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:41:17: [SM] Exception reported: Failed to open file: "addons/sourcemod/data/mapchanger_vote_block.txt". You are missing at installing!
+L 10/02/2023 - 03:41:17: [SM] Blaming: MapChanger.smx
+L 10/02/2023 - 03:41:17: [SM] Call stack trace:
+L 10/02/2023 - 03:41:17: [SM]   [0] SetFailState
+L 10/02/2023 - 03:41:17: [SM]   [1] Line 471, vip_core::ReadFileToArrayList
+L 10/02/2023 - 03:41:17: [SM]   [2] Line 497, vip_core::OnMapStart
+L 10/02/2023 - 03:42:26: SourceMod error session started
+L 10/02/2023 - 03:42:26: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:42:26: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 03:42:26: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:42:26: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:42:26: [SM] Fatal error encountered parsing translation file "MapChanger.phrases.txt"
+L 10/02/2023 - 03:42:26: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:42:26: [SM] Exception reported: Failed to open file: "addons/sourcemod/data/mapchanger_vote_block.txt". You are missing at installing!
+L 10/02/2023 - 03:42:26: [SM] Blaming: MapChanger.smx
+L 10/02/2023 - 03:42:26: [SM] Call stack trace:
+L 10/02/2023 - 03:42:26: [SM]   [0] SetFailState
+L 10/02/2023 - 03:42:26: [SM]   [1] Line 471, vip_core::ReadFileToArrayList
+L 10/02/2023 - 03:42:26: [SM]   [2] Line 497, vip_core::OnMapStart
+L 10/02/2023 - 03:44:16: Error log file session closed.
+L 10/02/2023 - 03:44:16: SourceMod error session started
+L 10/02/2023 - 03:44:16: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:44:16: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:44:16: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:45:05: Error log file session closed.
+L 10/02/2023 - 03:45:05: SourceMod error session started
+L 10/02/2023 - 03:45:05: Info (map "l4d_de01_sewers") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:45:05: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:45:05: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:45:28: Error log file session closed.
+L 10/02/2023 - 03:45:28: SourceMod error session started
+L 10/02/2023 - 03:45:28: Info (map "l4d_river01_docks") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:45:28: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:45:28: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:45:39: Error log file session closed.
+L 10/02/2023 - 03:45:39: SourceMod error session started
+L 10/02/2023 - 03:45:39: Info (map "l4d_river02_barge") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:45:39: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:45:39: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:47:22: Error log file session closed.
+L 10/02/2023 - 03:47:22: SourceMod error session started
+L 10/02/2023 - 03:47:22: Info (map "l4d_river03_port") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:47:22: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:47:22: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:48:30: SourceMod error session started
+L 10/02/2023 - 03:48:30: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:48:30: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 03:48:30: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:48:30: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:49:32: Error log file session closed.
+L 10/02/2023 - 03:49:32: SourceMod error session started
+L 10/02/2023 - 03:49:32: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:49:32: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:49:32: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:51:22: Error log file session closed.
+L 10/02/2023 - 03:51:22: SourceMod error session started
+L 10/02/2023 - 03:51:22: Info (map "l4d_hospital02_subway") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:51:22: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:51:22: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:56:24: SourceMod error session started
+L 10/02/2023 - 03:56:24: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:56:24: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 03:56:24: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:56:24: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:56:46: Error log file session closed.
+L 10/02/2023 - 03:56:46: SourceMod error session started
+L 10/02/2023 - 03:56:46: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:56:46: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:56:46: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:57:37: Error log file session closed.
+L 10/02/2023 - 03:57:37: SourceMod error session started
+L 10/02/2023 - 03:57:37: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:57:37: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:57:37: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:58:39: Error log file session closed.
+L 10/02/2023 - 03:58:39: SourceMod error session started
+L 10/02/2023 - 03:58:39: Info (map "l4d_river01_docks") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:58:39: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:58:39: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:59:45: Error log file session closed.
+L 10/02/2023 - 03:59:45: SourceMod error session started
+L 10/02/2023 - 03:59:45: Info (map "l4d_smalltown01_caves") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:59:45: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:59:45: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 03:59:56: Error log file session closed.
+L 10/02/2023 - 03:59:56: SourceMod error session started
+L 10/02/2023 - 03:59:56: Info (map "l4d_smalltown02_drainage") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 03:59:56: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 03:59:56: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 04:00:12: Error log file session closed.
+L 10/02/2023 - 04:00:12: SourceMod error session started
+L 10/02/2023 - 04:00:12: Info (map "l4d_river01_docks") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 04:00:12: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 04:00:12: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 04:00:22: Error log file session closed.
+L 10/02/2023 - 04:00:22: SourceMod error session started
+L 10/02/2023 - 04:00:22: Info (map "l4d_river02_barge") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 04:00:22: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 04:00:22: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 04:02:49: Error log file session closed.
+L 10/02/2023 - 04:02:49: SourceMod error session started
+L 10/02/2023 - 04:02:49: Info (map "shopcenter") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 04:02:49: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 04:02:49: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 04:03:32: Error log file session closed.
+L 10/02/2023 - 04:03:32: SourceMod error session started
+L 10/02/2023 - 04:03:32: Info (map "l4d_deadcity01_riverside") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 04:03:32: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 04:03:32: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 04:04:00: Error log file session closed.
+L 10/02/2023 - 04:04:00: SourceMod error session started
+L 10/02/2023 - 04:04:00: Info (map "l4d_garage01_alleys") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 04:04:00: [SM] Fatal error encountered parsing translation file "drop.phrases.txt"
+L 10/02/2023 - 04:04:00: [SM] Error (line 0, column 0): Stream failed to open
+L 10/02/2023 - 04:05:34: [SM] Exception reported: Language phrase "drop_pumpshotgun" not found (arg 3)
+L 10/02/2023 - 04:05:34: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:05:34: [SM] Call stack trace:
+L 10/02/2023 - 04:05:34: [SM]   [0] VFormat
+L 10/02/2023 - 04:05:34: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:05:34: [SM]   [2] Line 229, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:05:34: [SM]   [3] Line 166, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:05:41: [SM] Exception reported: Language phrase "drop_pumpshotgun" not found (arg 3)
+L 10/02/2023 - 04:05:41: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:05:41: [SM] Call stack trace:
+L 10/02/2023 - 04:05:41: [SM]   [0] VFormat
+L 10/02/2023 - 04:05:41: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:05:41: [SM]   [2] Line 229, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:05:41: [SM]   [3] Line 166, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:05:47: [SM] Exception reported: Language phrase "drop_pumpshotgun" not found (arg 3)
+L 10/02/2023 - 04:05:47: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:05:47: [SM] Call stack trace:
+L 10/02/2023 - 04:05:47: [SM]   [0] VFormat
+L 10/02/2023 - 04:05:47: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:05:47: [SM]   [2] Line 229, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:05:47: [SM]   [3] Line 166, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:05:52: [SM] Exception reported: Language phrase "drop_pumpshotgun" not found (arg 3)
+L 10/02/2023 - 04:05:52: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:05:52: [SM] Call stack trace:
+L 10/02/2023 - 04:05:52: [SM]   [0] VFormat
+L 10/02/2023 - 04:05:52: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:05:52: [SM]   [2] Line 229, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:05:52: [SM]   [3] Line 166, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:05:57: [SM] Exception reported: Language phrase "drop_first_aid_kit" not found (arg 3)
+L 10/02/2023 - 04:05:57: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:05:57: [SM] Call stack trace:
+L 10/02/2023 - 04:05:57: [SM]   [0] VFormat
+L 10/02/2023 - 04:05:57: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:05:57: [SM]   [2] Line 311, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:05:57: [SM]   [3] Line 178, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:06:25: [SM] Exception reported: Language phrase "drop_first_aid_kit" not found (arg 3)
+L 10/02/2023 - 04:06:25: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:06:25: [SM] Call stack trace:
+L 10/02/2023 - 04:06:25: [SM]   [0] VFormat
+L 10/02/2023 - 04:06:25: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:06:25: [SM]   [2] Line 311, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:06:25: [SM]   [3] Line 178, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:07:47: [SM] Exception reported: Language phrase "drop_pumpshotgun" not found (arg 3)
+L 10/02/2023 - 04:07:47: [SM] Blaming: l4ddrop.smx
+L 10/02/2023 - 04:07:47: [SM] Call stack trace:
+L 10/02/2023 - 04:07:47: [SM]   [0] VFormat
+L 10/02/2023 - 04:07:47: [SM]   [1] Line 388, halflife::PrintToChatAll
+L 10/02/2023 - 04:07:47: [SM]   [2] Line 229, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::DropSlot
+L 10/02/2023 - 04:07:47: [SM]   [3] Line 166, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4ddrop.sp::Command_Drop
+L 10/02/2023 - 04:10:46: Error log file session closed.
+L 10/02/2023 - 13:30:17: SourceMod error session started
+L 10/02/2023 - 13:30:17: Info (map "l4d_farm01_hilltop") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 13:30:17: [SM] Unable to load extension "left4downtown.ext": /home/steam/Steam/l4d1server/left4dead/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 10/02/2023 - 13:30:17: [SM] Unable to load plugin "l4dunreservelobby.smx": Required extension "Left 4 Downtown" file("left4downtown.ext") not running
+L 10/02/2023 - 13:34:53: Error log file session closed.
+L 10/02/2023 - 13:43:01: SourceMod error session started
+L 10/02/2023 - 13:43:01: Info (map "l4d_farm03_bridge") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 13:43:01: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 10/02/2023 - 13:53:44: Error log file session closed.
+L 10/02/2023 - 14:15:14: SourceMod error session started
+L 10/02/2023 - 14:15:14: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 14:15:14: [SM] Unable to load extension "left4downtown.ext": vstdlib_i486.so: cannot open shared object file: No such file or directory
+L 10/02/2023 - 14:15:14: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 14:17:01: Error log file session closed.
+L 10/02/2023 - 14:59:13: SourceMod error session started
+L 10/02/2023 - 14:59:13: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 14:59:13: [SM] Unable to load extension "left4downtown.ext": vstdlib_i486.so: cannot open shared object file: No such file or directory
+L 10/02/2023 - 14:59:13: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 15:01:29: Error log file session closed.
+L 10/02/2023 - 15:10:15: SourceMod error session started
+L 10/02/2023 - 15:10:15: Info (map "l4d_hospital03_sewers") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 15:10:15: [SM] Exception reported: Entity 440 (440) is not a CBaseEntity
+L 10/02/2023 - 15:10:15: [SM] Blaming: l4d2_movablemachinegun_sdkhooks_CH.smx
+L 10/02/2023 - 15:10:15: [SM] Call stack trace:
+L 10/02/2023 - 15:10:15: [SM]   [0] AcceptEntityInput
+L 10/02/2023 - 15:10:15: [SM]   [1] Line 330, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4d2_movablemachinegun_sdkhooks1.sp::Event_RoundStart
+L 10/02/2023 - 15:10:19: [SM] Exception reported: Entity 440 (440) is not a CBaseEntity
+L 10/02/2023 - 15:10:19: [SM] Blaming: l4d2_movablemachinegun_sdkhooks_CH.smx
+L 10/02/2023 - 15:10:19: [SM] Call stack trace:
+L 10/02/2023 - 15:10:19: [SM]   [0] AcceptEntityInput
+L 10/02/2023 - 15:10:19: [SM]   [1] Line 330, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4d2_movablemachinegun_sdkhooks1.sp::Event_RoundStart
+L 10/02/2023 - 15:23:50: Error log file session closed.
+L 10/02/2023 - 16:35:34: SourceMod error session started
+L 10/02/2023 - 16:35:34: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231002.log")
+L 10/02/2023 - 16:35:34: [SM] Unable to load extension "left4downtown.ext": vstdlib_i486.so: cannot open shared object file: No such file or directory
+L 10/02/2023 - 16:35:34: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/02/2023 - 16:38:04: [UPDATER] --- BEGIN ERRORS FROM AUTOMATIC UPDATER ---
+L 10/02/2023 - 16:38:04: [UPDATER] Could not download "http://update.sourcemod.net/update/"
+L 10/02/2023 - 16:38:04: [UPDATER] Error: Failed to connect to 2606:4700:3031::6815:2e27: Unknown error 101
+L 10/02/2023 - 16:38:04: [UPDATER] --- END ERRORS FROM AUTOMATIC UPDATER ---
+L 10/02/2023 - 16:45:01: Error log file session closed.

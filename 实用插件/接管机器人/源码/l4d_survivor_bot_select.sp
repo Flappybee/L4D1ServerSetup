@@ -77,7 +77,7 @@ public void Event_PlayerSpawn(Handle event, const char[] name, bool dontBroadcas
 			SteamIDs.SetValue(SteamID, 2, true);
 			Handle datapack = CreateDataPack(); WritePackString(datapack,SteamID); WritePackCell(datapack,userid);
 			CreateTimer(Cvar_TimeBot.FloatValue, Timer_RecordSteamID, datapack, TIMER_FLAG_NO_MAPCHANGE);		
-			if (Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[SBS]\x01 你有 %d 秒时间再聊天框输入!pickbot接管一个电脑", Cvar_TimeBot.IntValue);
+			if (Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[提示]\x01 你有 %d 秒时间再聊天框输入!pickbot接管一个电脑", Cvar_TimeBot.IntValue);
 		}
 	}
 }
@@ -114,25 +114,25 @@ public Action Timer_RecordSteamID(Handle hTimer, Handle datapack)
 	SteamIDs.SetValue(SteamID, 0, true);
 	
 	int client = GetClientOfUserId(ReadPackCell(datapack));	
-	if (client && Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[SBS]\x01 你不再能接管电脑.", Cvar_TimeBot.FloatValue);
+	if (client && Cvar_TimeBot.FloatValue > 2 && Cvar_PickBot.BoolValue) PrintToChat(client, "\x04[提示]\x01 你不再能接管电脑.", Cvar_TimeBot.FloatValue);
 }
 
 bool VerifyCommand(int client)
 {
 	//Verifiy is command is appropriate
-	if (client == 0)  {  ReplyToCommand(client, "[SBS] Command is in-game only.");  return false;} 
+	if (client == 0)  {  ReplyToCommand(client, "[提示] Command is in-game only.");  return false;} 
 	if (!IsClientInGame(client) || IsFakeClient(client)) return false;
-	if (GetClientTeam(client) != TEAM_SURVIVOR)  {  ReplyToCommand(client, "[SBS] Only survivors may use this command.");  return false;} 	
+	if (GetClientTeam(client) != TEAM_SURVIVOR)  {  ReplyToCommand(client, "[提示] Only survivors may use this command.");  return false;} 	
 	if (!Cvar_DeadBot.BoolValue || IsPlayerAlive(client) ) // Skip this if dead & l4d_sbs_dead is 1
 	{
-		if (!Cvar_PickBot.BoolValue) {ReplyToCommand(client, "[SBS] Command is disabled.");  return false;  }
-		if (Cvar_TimeBot.FloatValue >= 0 && !PickAllowed(client)) {  ReplyToCommand(client, "[SBS] You may no longer use this command this round.");  return false;}	
+		if (!Cvar_PickBot.BoolValue) {ReplyToCommand(client, "[提示] Command is disabled.");  return false;  }
+		if (Cvar_TimeBot.FloatValue >= 0 && !PickAllowed(client)) {  ReplyToCommand(client, "[提示] You may no longer use this command this round.");  return false;}	
 	}
 	
 	int AvailableBots = CountAvailableSurvivorBots();
 	if (AvailableBots == 0)
 	{
-		ReplyToCommand(client, "[SBS] No survivor bot available."); return false;
+		ReplyToCommand(client, "[提示] No survivor bot available."); return false;
 	}
 	return true;
 }
@@ -161,7 +161,7 @@ public Action Event_PlayerDeath(Handle event, const char[] name, bool dontBroadc
 	int AvailableBots = CountAvailableSurvivorBots();
 	if (AvailableBots == 0) return;
 	
-	PrintToChat(client, "\x04[SBS]\x01 你可以在聊天框输入!pickbot接管一个电脑");
+	PrintToChat(client, "\x04[提示]\x01 你可以在聊天框输入!pickbot接管一个电脑");
 }
 
 // *********************************************************************************
@@ -303,7 +303,7 @@ public int MenuHandler1(Menu menu, MenuAction action, int param1, int param2)
 			int PickedBot = StringToInt(number);
 
 			if (!VerifyCommand(client)) return;
-			if (!PickedBot || !IsSurvivorBotValid(PickedBot) || GetIdlePlayer(PickedBot)) { PrintToChat(client, "[SBS] 此机器人已不可再被接管.");  return;}
+			if (!PickedBot || !IsSurvivorBotValid(PickedBot) || GetIdlePlayer(PickedBot)) { PrintToChat(client, "[提示] 此机器人已不可再被接管.");  return;}
 
 			ChangeClientTeam(client, TEAM_SPECTATOR);
 			SetHumanIdle(PickedBot, client);
@@ -449,7 +449,7 @@ void SetHumanIdle(int bot, int client)
 		hSpec = EndPrepSDKCall();
 		if(hSpec == INVALID_HANDLE)
 		{
-			PrintToChatAll("[SBS] SetHumanSpec Signature broken. Make sure l4d_survivor_bot_select.txt is in /gamedata/");		
+			PrintToChatAll("[提示] SetHumanSpec Signature broken. Make sure l4d_survivor_bot_select.txt is in /gamedata/");		
 		}
 	}
 	SDKCall(hSpec, bot, client);
@@ -467,7 +467,7 @@ void TakeOverBot(int client)
 		hSwitch = EndPrepSDKCall();
 		if (hSwitch == INVALID_HANDLE)
 		{
-			PrintToChatAll("[SBS] TakeOverBot Signature broken. Make sure l4d_survivor_bot_select.txt is in /gamedata/");	
+			PrintToChatAll("[提示] TakeOverBot Signature broken. Make sure l4d_survivor_bot_select.txt is in /gamedata/");	
 		}	
 	}
 	SDKCall(hSwitch, client, true);

@@ -1,0 +1,544 @@
+L 10/02/2023 - 03:11:00: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 03:11:00: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 03:11:30: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 03:14:57: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 03:14:57: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 03:15:37: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 03:16:56: [funcommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" toggled noclip on "辣椒冰激凌<2><STEAM_1:0:518486803><>"
+L 10/02/2023 - 03:17:09: [funcommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" toggled noclip on "辣椒冰激凌<2><STEAM_1:0:518486803><>"
+L 10/02/2023 - 03:17:34: [playercommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" slayed "Zoey<6><BOT><>"
+L 10/02/2023 - 03:17:34: [playercommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" slayed "Boomer<10><BOT><>"
+L 10/02/2023 - 03:17:44: [playercommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" slayed "Francis<7><BOT><>"
+L 10/02/2023 - 03:17:44: [playercommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" slayed "幻沙之鲛姬<9><STEAM_1:0:685634059><>"
+L 10/02/2023 - 03:17:55: -------- Mapchange to l4d_river02_barge --------
+L 10/02/2023 - 03:35:01: -------- Mapchange to l4d_river03_port --------
+L 10/02/2023 - 03:35:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:35:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:35:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:35:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:35:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:41:16: -------- Mapchange to l4d_river03_port --------
+L 10/02/2023 - 03:41:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:41:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:41:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:41:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:41:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:42:26: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 03:42:26: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:42:26: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:42:26: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:42:26: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:42:26: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:44:16: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 03:44:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:44:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:44:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:44:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:44:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:45:05: [SM] Changed map to "l4d_de01_sewers"
+L 10/02/2023 - 03:45:05: -------- Mapchange to l4d_de01_sewers --------
+L 10/02/2023 - 03:45:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:45:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:45:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:45:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:45:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:45:28: [SM] Changed map to "l4d_river01_docks"
+L 10/02/2023 - 03:45:28: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 03:45:29: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:45:29: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:45:29: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:45:29: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:45:29: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:45:39: [SM] Changed map to "l4d_river02_barge"
+L 10/02/2023 - 03:45:39: -------- Mapchange to l4d_river02_barge --------
+L 10/02/2023 - 03:45:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:45:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:45:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:45:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:45:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:47:22: [SM] Changed map to "l4d_river03_port"
+L 10/02/2023 - 03:47:22: -------- Mapchange to l4d_river03_port --------
+L 10/02/2023 - 03:47:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:47:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:47:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:47:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:47:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:48:30: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 03:48:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:48:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:48:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:48:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:48:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:49:32: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 03:49:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:49:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:49:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:49:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:49:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:51:22: [SM] Changed map to "l4d_hospital02_subway"
+L 10/02/2023 - 03:51:22: -------- Mapchange to l4d_hospital02_subway --------
+L 10/02/2023 - 03:51:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:51:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:51:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:51:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:51:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:53:23: [basecommands.smx] "辣椒冰激凌<2><STEAM_1:0:518486803><>" refreshed the admin cache.
+L 10/02/2023 - 03:56:24: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 03:56:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:56:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:56:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:56:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:56:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:56:46: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 03:56:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:56:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:56:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:56:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:56:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:57:37: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 03:57:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:57:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:57:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:57:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:57:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:58:38: [SM] Changed map to "l4d_river01_docks"
+L 10/02/2023 - 03:58:39: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 03:58:40: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:58:40: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:58:40: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:58:40: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:58:40: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:59:45: [SM] Changed map to "l4d_smalltown01_caves"
+L 10/02/2023 - 03:59:45: -------- Mapchange to l4d_smalltown01_caves --------
+L 10/02/2023 - 03:59:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:59:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:59:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:59:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:59:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 03:59:56: [SM] Changed map to "l4d_smalltown02_drainage"
+L 10/02/2023 - 03:59:56: -------- Mapchange to l4d_smalltown02_drainage --------
+L 10/02/2023 - 03:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 03:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 03:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 03:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 03:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:00:11: [SM] Changed map to "l4d_river01_docks"
+L 10/02/2023 - 04:00:12: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 04:00:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:00:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:00:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:00:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:00:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:00:22: [SM] Changed map to "l4d_river02_barge"
+L 10/02/2023 - 04:00:22: -------- Mapchange to l4d_river02_barge --------
+L 10/02/2023 - 04:00:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:00:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:00:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:00:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:00:24: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:02:49: [SM] Changed map to "shopcenter"
+L 10/02/2023 - 04:02:49: -------- Mapchange to shopcenter --------
+L 10/02/2023 - 04:02:50: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:02:50: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:02:50: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:02:50: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:02:50: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:03:32: [SM] Changed map to "l4d_deadcity01_riverside"
+L 10/02/2023 - 04:03:32: -------- Mapchange to l4d_deadcity01_riverside --------
+L 10/02/2023 - 04:03:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:03:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:03:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:03:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:03:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:04:00: [SM] Changed map to "l4d_garage01_alleys"
+L 10/02/2023 - 04:04:00: -------- Mapchange to l4d_garage01_alleys --------
+L 10/02/2023 - 04:04:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:04:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:04:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:04:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:04:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:10:46: [SM] Changed map to "l4d_garage02_lots"
+L 10/02/2023 - 04:10:46: -------- Mapchange to l4d_garage02_lots --------
+L 10/02/2023 - 04:10:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:10:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:10:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:10:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:10:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:18:07: [SM] Changed map to "l4d_river01_docks"
+L 10/02/2023 - 04:18:08: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 04:18:09: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 04:18:09: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 04:18:09: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 04:18:09: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 04:18:09: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 04:21:23: [funvotes.smx] "辣椒冰激凌<7><STEAM_1:0:518486803><>" initiated a friendly fire vote.
+L 10/02/2023 - 04:21:27: [funvotes.smx] Changing friendly fire to 0 due to vote.
+L 10/02/2023 - 05:56:21: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 05:56:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 05:56:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 05:56:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 05:56:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 05:56:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:02:25: [SM] Changed map to "l4d_river02_barge"
+L 10/02/2023 - 06:02:25: -------- Mapchange to l4d_river02_barge --------
+L 10/02/2023 - 06:02:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:02:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:02:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:02:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:02:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:07:12: [SM] Changed map to "l4d_hospital01_apartment"
+L 10/02/2023 - 06:07:12: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 06:07:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:07:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:07:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:07:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:07:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:09:31: -------- Mapchange to l4d_hospital02_subway --------
+L 10/02/2023 - 06:09:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:09:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:09:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:09:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:09:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:19:43: -------- Mapchange to l4d_hospital03_sewers --------
+L 10/02/2023 - 06:19:44: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:19:44: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:19:44: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:19:44: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:19:44: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:27:33: -------- Mapchange to l4d_hospital04_interior --------
+L 10/02/2023 - 06:27:34: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:27:34: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:27:34: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:27:34: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:27:34: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:35:25: -------- Mapchange to l4d_hospital05_rooftop --------
+L 10/02/2023 - 06:35:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:35:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:35:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:35:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:35:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:43:54: [SM] Changed map to "l4d_smalltown01_caves"
+L 10/02/2023 - 06:43:55: -------- Mapchange to l4d_smalltown01_caves --------
+L 10/02/2023 - 06:43:55: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:43:55: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:43:55: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:43:55: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:43:55: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:48:53: -------- Mapchange to l4d_smalltown02_drainage --------
+L 10/02/2023 - 06:48:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:48:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:48:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:48:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:48:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 06:56:14: -------- Mapchange to l4d_smalltown03_ranchhouse --------
+L 10/02/2023 - 06:56:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 06:56:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 06:56:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 06:56:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 06:56:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 07:04:42: -------- Mapchange to l4d_smalltown04_mainstreet --------
+L 10/02/2023 - 07:04:43: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 07:04:43: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 07:04:43: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 07:04:43: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 07:04:43: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 07:13:12: -------- Mapchange to l4d_smalltown05_houseboat --------
+L 10/02/2023 - 07:13:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 07:13:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 07:13:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 07:13:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 07:13:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 07:23:37: [SM] Changed map to "l4d_airport01_greenhouse"
+L 10/02/2023 - 07:23:37: -------- Mapchange to l4d_airport01_greenhouse --------
+L 10/02/2023 - 07:23:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 07:23:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 07:23:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 07:23:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 07:23:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 07:30:21: -------- Mapchange to l4d_airport02_offices --------
+L 10/02/2023 - 07:30:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 07:30:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 07:30:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 07:30:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 07:30:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 10:48:10: -------- Mapchange to l4d_sv_lighthouse --------
+L 10/02/2023 - 10:48:11: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 10:48:11: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 10:48:11: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 10:48:11: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 10:48:11: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 12:34:46: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 12:34:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 12:34:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 12:34:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 12:34:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 12:34:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 12:42:31: -------- Mapchange to l4d_sv_lighthouse --------
+L 10/02/2023 - 12:42:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 12:42:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 12:42:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 12:42:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 12:42:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 12:46:50: [SM] Changed map to "l4d_hospital01_apartment"
+L 10/02/2023 - 12:46:51: -------- Mapchange to l4d_hospital01_apartment --------
+L 10/02/2023 - 12:46:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 12:46:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 12:46:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 12:46:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 12:46:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 12:48:59: -------- Mapchange to l4d_hospital02_subway --------
+L 10/02/2023 - 12:48:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 12:48:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 12:48:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 12:48:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 12:48:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 12:59:58: -------- Mapchange to l4d_hospital03_sewers --------
+L 10/02/2023 - 12:59:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 12:59:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 12:59:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 12:59:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 12:59:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 13:13:31: -------- Mapchange to l4d_hospital04_interior --------
+L 10/02/2023 - 13:13:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 13:13:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 13:13:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 13:13:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 13:13:32: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 13:21:12: -------- Mapchange to l4d_hospital05_rooftop --------
+L 10/02/2023 - 13:21:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 13:21:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 13:21:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 13:21:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 13:21:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 13:30:16: [SM] Changed map to "l4d_farm01_hilltop"
+L 10/02/2023 - 13:30:17: -------- Mapchange to l4d_farm01_hilltop --------
+L 10/02/2023 - 13:30:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 13:30:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 13:30:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 13:30:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 13:30:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 13:34:53: -------- Mapchange to l4d_farm02_traintunnel --------
+L 10/02/2023 - 13:34:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 13:34:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 13:34:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 13:34:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 13:34:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 13:43:01: -------- Mapchange to l4d_farm03_bridge --------
+L 10/02/2023 - 13:43:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 13:43:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 13:43:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 13:43:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 13:43:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 13:53:44: -------- Mapchange to l4d_farm04_barn --------
+L 10/02/2023 - 13:53:45: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 13:53:45: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 13:53:45: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 13:53:45: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 13:53:45: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:04:02: -------- Mapchange to l4d_farm05_cornfield --------
+L 10/02/2023 - 14:04:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:04:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:04:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:04:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:04:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:14:17: [SM] Changed map to "l4d_river01_docks"
+L 10/02/2023 - 14:14:17: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 14:14:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:14:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:14:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:14:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:14:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:15:16: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 14:15:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:15:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:15:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:15:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:15:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:17:00: [SM] Changed map to "l4d_149_1"
+L 10/02/2023 - 14:17:01: -------- Mapchange to l4d_149_1 --------
+L 10/02/2023 - 14:17:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:17:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:17:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:17:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:17:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:27:30: -------- Mapchange to l4d_149_2 --------
+L 10/02/2023 - 14:27:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:27:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:27:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:27:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:27:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:40:45: -------- Mapchange to l4d_149_3 --------
+L 10/02/2023 - 14:40:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:40:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:40:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:40:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:40:46: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:52:01: [SM] Changed map to "l4d_hospital02_subway"
+L 10/02/2023 - 14:52:01: -------- Mapchange to l4d_hospital02_subway --------
+L 10/02/2023 - 14:52:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:52:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:52:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:52:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:52:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 14:59:14: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 14:59:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 14:59:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 14:59:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 14:59:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 14:59:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:01:29: -------- Mapchange to l4d_hospital02_subway --------
+L 10/02/2023 - 15:01:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:01:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:01:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:01:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:01:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:10:15: -------- Mapchange to l4d_hospital03_sewers --------
+L 10/02/2023 - 15:10:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:10:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:10:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:10:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:10:15: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:23:50: -------- Mapchange to l4d_hospital04_interior --------
+L 10/02/2023 - 15:23:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:23:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:23:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:23:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:23:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:29:49: -------- Mapchange to l4d_hospital05_rooftop --------
+L 10/02/2023 - 15:29:49: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:29:49: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:29:49: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:29:49: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:29:49: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:46:57: [SM] Changed map to "l4d_airport01_greenhouse"
+L 10/02/2023 - 15:46:57: -------- Mapchange to l4d_airport01_greenhouse --------
+L 10/02/2023 - 15:46:58: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:46:58: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:46:58: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:46:58: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:46:58: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:51:36: -------- Mapchange to l4d_airport02_offices --------
+L 10/02/2023 - 15:51:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:51:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:51:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:51:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:51:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 15:59:55: -------- Mapchange to l4d_airport03_garage --------
+L 10/02/2023 - 15:59:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 15:59:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 15:59:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 15:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 15:59:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:08:35: -------- Mapchange to l4d_airport04_terminal --------
+L 10/02/2023 - 16:08:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:08:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:08:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:08:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:08:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:13:35: -------- Mapchange to l4d_airport05_runway --------
+L 10/02/2023 - 16:13:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:13:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:13:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:13:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:13:36: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:25:02: [SM] Changed map to "l4d_river01_docks"
+L 10/02/2023 - 16:25:04: -------- Mapchange to l4d_river01_docks --------
+L 10/02/2023 - 16:25:05: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:25:05: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:25:05: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:25:05: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:25:05: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:35:16: -------- Mapchange to l4d_river02_barge --------
+L 10/02/2023 - 16:35:35: SourceMod log file session started (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/L20231002.log") (Version "1.11.0.6936")
+L 10/02/2023 - 16:35:35: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:35:35: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:35:35: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:35:35: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:35:35: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:45:01: -------- Mapchange to l4d_airport01_greenhouse --------
+L 10/02/2023 - 16:45:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:45:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:45:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:45:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:45:02: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:49:16: -------- Mapchange to l4d_airport02_offices --------
+L 10/02/2023 - 16:49:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:49:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:49:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:49:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:49:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 16:58:53: -------- Mapchange to l4d_airport03_garage --------
+L 10/02/2023 - 16:58:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 16:58:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 16:58:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 16:58:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 16:58:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:08:21: -------- Mapchange to l4d_airport04_terminal --------
+L 10/02/2023 - 17:08:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:08:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:08:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:08:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:08:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:14:46: -------- Mapchange to l4d_airport05_runway --------
+L 10/02/2023 - 17:14:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:14:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:14:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:14:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:14:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:21:40: [SM] Changed map to "l4d_farm01_hilltop"
+L 10/02/2023 - 17:21:40: -------- Mapchange to l4d_farm01_hilltop --------
+L 10/02/2023 - 17:21:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:21:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:21:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:21:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:21:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:26:12: -------- Mapchange to l4d_farm02_traintunnel --------
+L 10/02/2023 - 17:26:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:26:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:26:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:26:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:26:13: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:35:16: -------- Mapchange to l4d_farm03_bridge --------
+L 10/02/2023 - 17:35:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:35:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:35:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:35:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:35:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:40:40: -------- Mapchange to l4d_farm04_barn --------
+L 10/02/2023 - 17:40:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:40:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:40:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:40:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:40:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:48:21: -------- Mapchange to l4d_farm05_cornfield --------
+L 10/02/2023 - 17:48:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:48:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:48:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:48:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:48:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 17:58:25: [SM] Changed map to "l4d_garage01_alleys"
+L 10/02/2023 - 17:58:25: -------- Mapchange to l4d_garage01_alleys --------
+L 10/02/2023 - 17:58:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 17:58:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 17:58:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 17:58:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 17:58:27: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 19:43:36: -------- Mapchange to l4d_smalltown03_ranchhouse --------
+L 10/02/2023 - 19:43:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 19:43:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 19:43:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 19:43:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 19:43:37: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 20:50:58: -------- Mapchange to l4d_farm01_hilltop --------
+L 10/02/2023 - 20:50:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 20:50:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 20:50:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 20:50:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 20:50:59: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/02/2023 - 22:11:03: -------- Mapchange to l4d_hospital03_sewers --------
+L 10/02/2023 - 22:11:04: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_team") (value "1")
+L 10/02/2023 - 22:11:04: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_hibernate_when_empty") (value "0")
+L 10/02/2023 - 22:11:04: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_allow_crawling") (value "1")
+L 10/02/2023 - 22:11:04: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "survivor_crawl_speed") (value "100")
+L 10/02/2023 - 22:11:04: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "director_afk_timeout") (value "120")
+L 10/03/2023 - 00:40:09: Log file closed.

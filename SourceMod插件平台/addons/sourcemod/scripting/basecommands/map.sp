@@ -30,7 +30,14 @@
  *
  * Version: $Id$
  */
- 
+#include <localizer>
+
+Localizer loc;
+
+KeyValues g_kv;
+KeyValues g_kvinfo;
+KeyValues g_kvdef;
+
 public int MenuHandler_ChangeMap(Menu menu, MenuAction action, int param1, int param2)
 {
 	if (action == MenuAction_Cancel)
@@ -163,7 +170,9 @@ int LoadMapList(Menu menu)
 	{
 		char displayName[PLATFORM_MAX_PATH];
 		GetArrayString(g_map_array, i, map_name, sizeof(map_name));
-		GetMapDisplayName(map_name, displayName, sizeof(displayName));
+		//GetMapDisplayName(map_name, displayName, sizeof(displayName));
+		loc.PhraseTranslateToLang(map_name, displayName, sizeof(displayName), LANG_SERVER, _, _, map_name);
+		//NormalizeName(displayName);
 		menu.AddItem(map_name, displayName);
 	}
 	

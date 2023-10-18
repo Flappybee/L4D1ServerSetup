@@ -1,0 +1,255 @@
+L 10/04/2023 - 12:15:01: SourceMod error session started
+L 10/04/2023 - 12:15:01: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 12:15:01: [SM] Unable to load extension "left4downtown.ext": vstdlib_i486.so: cannot open shared object file: No such file or directory
+L 10/04/2023 - 12:15:02: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/04/2023 - 12:15:02: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 12:15:02: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 12:15:02: [SM] Call stack trace:
+L 10/04/2023 - 12:15:02: [SM]   [0] SetFailState
+L 10/04/2023 - 12:15:02: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 12:15:38: Error log file session closed.
+L 10/04/2023 - 12:15:38: SourceMod error session started
+L 10/04/2023 - 12:15:38: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 12:15:38: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 12:15:38: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 12:15:38: [SM] Call stack trace:
+L 10/04/2023 - 12:15:38: [SM]   [0] SetFailState
+L 10/04/2023 - 12:15:38: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 12:23:12: Error log file session closed.
+L 10/04/2023 - 12:23:12: SourceMod error session started
+L 10/04/2023 - 12:23:12: Info (map "l4d_hospital02_subway") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 12:23:12: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 12:23:12: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 12:23:12: [SM] Call stack trace:
+L 10/04/2023 - 12:23:12: [SM]   [0] SetFailState
+L 10/04/2023 - 12:23:12: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 12:34:04: Error log file session closed.
+L 10/04/2023 - 12:34:04: SourceMod error session started
+L 10/04/2023 - 12:34:04: Info (map "l4d_hospital03_sewers") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 12:34:04: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 12:34:04: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 12:34:04: [SM] Call stack trace:
+L 10/04/2023 - 12:34:04: [SM]   [0] SetFailState
+L 10/04/2023 - 12:34:04: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 12:44:47: Error log file session closed.
+L 10/04/2023 - 12:44:47: SourceMod error session started
+L 10/04/2023 - 12:44:47: Info (map "l4d_hospital04_interior") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 12:44:47: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 12:44:47: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 12:44:47: [SM] Call stack trace:
+L 10/04/2023 - 12:44:47: [SM]   [0] SetFailState
+L 10/04/2023 - 12:44:47: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 12:55:58: Error log file session closed.
+L 10/04/2023 - 12:55:58: SourceMod error session started
+L 10/04/2023 - 12:55:58: Info (map "l4d_hospital05_rooftop") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 12:55:58: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 12:55:58: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 12:55:58: [SM] Call stack trace:
+L 10/04/2023 - 12:55:58: [SM]   [0] SetFailState
+L 10/04/2023 - 12:55:58: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:04:25: Error log file session closed.
+L 10/04/2023 - 13:04:25: SourceMod error session started
+L 10/04/2023 - 13:04:25: Info (map "l4d_smalltown01_caves") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:04:25: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:04:25: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:04:25: [SM] Call stack trace:
+L 10/04/2023 - 13:04:25: [SM]   [0] SetFailState
+L 10/04/2023 - 13:04:25: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:09:41: Error log file session closed.
+L 10/04/2023 - 13:09:41: SourceMod error session started
+L 10/04/2023 - 13:09:41: Info (map "l4d_smalltown02_drainage") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:09:41: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:09:41: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:09:41: [SM] Call stack trace:
+L 10/04/2023 - 13:09:41: [SM]   [0] SetFailState
+L 10/04/2023 - 13:09:41: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:16:05: Error log file session closed.
+L 10/04/2023 - 13:16:05: SourceMod error session started
+L 10/04/2023 - 13:16:05: Info (map "l4d_smalltown03_ranchhouse") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:16:05: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:16:05: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:16:05: [SM] Call stack trace:
+L 10/04/2023 - 13:16:05: [SM]   [0] SetFailState
+L 10/04/2023 - 13:16:05: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:23:16: Error log file session closed.
+L 10/04/2023 - 13:23:16: SourceMod error session started
+L 10/04/2023 - 13:23:16: Info (map "l4d_smalltown04_mainstreet") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:23:16: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:23:16: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:23:16: [SM] Call stack trace:
+L 10/04/2023 - 13:23:16: [SM]   [0] SetFailState
+L 10/04/2023 - 13:23:16: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:33:30: Error log file session closed.
+L 10/04/2023 - 13:33:30: SourceMod error session started
+L 10/04/2023 - 13:33:30: Info (map "l4d_smalltown05_houseboat") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:33:30: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:33:30: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:33:30: [SM] Call stack trace:
+L 10/04/2023 - 13:33:30: [SM]   [0] SetFailState
+L 10/04/2023 - 13:33:30: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:42:41: Error log file session closed.
+L 10/04/2023 - 13:42:41: SourceMod error session started
+L 10/04/2023 - 13:42:41: Info (map "l4d_river01_docks") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:42:41: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:42:41: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:42:41: [SM] Call stack trace:
+L 10/04/2023 - 13:42:41: [SM]   [0] SetFailState
+L 10/04/2023 - 13:42:41: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:56:31: Error log file session closed.
+L 10/04/2023 - 13:56:31: SourceMod error session started
+L 10/04/2023 - 13:56:31: Info (map "l4d_river02_barge") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:56:31: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:56:31: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:56:31: [SM] Call stack trace:
+L 10/04/2023 - 13:56:31: [SM]   [0] SetFailState
+L 10/04/2023 - 13:56:31: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:56:49: SourceMod error session started
+L 10/04/2023 - 13:56:49: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:56:49: [SM] Unable to load extension "left4downtown.ext": vstdlib_i486.so: cannot open shared object file: No such file or directory
+L 10/04/2023 - 13:56:49: [left4dhooks.smx] Failed to find signature: "CMultiPlayerAnimState::ResetMainActivity" (NIX/1/1.135)
+L 10/04/2023 - 13:56:49: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:56:49: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:56:49: [SM] Call stack trace:
+L 10/04/2023 - 13:56:49: [SM]   [0] SetFailState
+L 10/04/2023 - 13:56:49: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 13:57:25: Error log file session closed.
+L 10/04/2023 - 13:57:25: SourceMod error session started
+L 10/04/2023 - 13:57:25: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 13:57:25: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 13:57:25: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 13:57:25: [SM] Call stack trace:
+L 10/04/2023 - 13:57:25: [SM]   [0] SetFailState
+L 10/04/2023 - 13:57:25: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 14:33:38: Error log file session closed.
+L 10/04/2023 - 14:33:38: SourceMod error session started
+L 10/04/2023 - 14:33:38: Info (map "l4d_hospital01_apartment") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 14:33:38: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 14:33:38: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 14:33:38: [SM] Call stack trace:
+L 10/04/2023 - 14:33:38: [SM]   [0] SetFailState
+L 10/04/2023 - 14:33:38: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 14:34:07: Error log file session closed.
+L 10/04/2023 - 14:34:07: SourceMod error session started
+L 10/04/2023 - 14:34:07: Info (map "silentfear") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 14:34:07: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 14:34:07: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 14:34:07: [SM] Call stack trace:
+L 10/04/2023 - 14:34:07: [SM]   [0] SetFailState
+L 10/04/2023 - 14:34:07: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 14:34:57: Error log file session closed.
+L 10/04/2023 - 14:34:57: SourceMod error session started
+L 10/04/2023 - 14:34:57: Info (map "l4d_mill01_offices") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 14:34:57: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 14:34:57: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 14:34:57: [SM] Call stack trace:
+L 10/04/2023 - 14:34:57: [SM]   [0] SetFailState
+L 10/04/2023 - 14:34:57: [SM]   [1] Line 334, d:\Github\Private-Work\L4D2-插件\scripting_1.11\l4d2_spawn_props.sp::OnAllPluginsLoaded
+L 10/04/2023 - 14:44:57: Error log file session closed.
+L 10/04/2023 - 14:44:57: SourceMod error session started
+L 10/04/2023 - 14:44:57: Info (map "l4d_mill02_shelter1") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 14:44:57: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 14:44:57: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 14:44:57: [SM] Call stack trace:
+L 10/04/2023 - 14:44:57: [SM]   [0] SetFailState
+L 10/04/2023 - 14:44:57: [SM]   [1] Line 334, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4d2_spawn_props.sp.cpp::OnAllPluginsLoaded
+L 10/04/2023 - 14:46:29: Error log file session closed.
+L 10/04/2023 - 14:46:29: SourceMod error session started
+L 10/04/2023 - 14:46:29: Info (map "l4d_mill03_shelter2") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 14:46:29: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 14:46:29: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 14:46:29: [SM] Call stack trace:
+L 10/04/2023 - 14:46:29: [SM]   [0] SetFailState
+L 10/04/2023 - 14:46:29: [SM]   [1] Line 334, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4d2_spawn_props.sp.cpp::OnAllPluginsLoaded
+L 10/04/2023 - 22:26:16: Error log file session closed.
+L 10/04/2023 - 22:26:16: SourceMod error session started
+L 10/04/2023 - 22:26:16: Info (map "l4d_mill04_woods") (file "/home/steam/Steam/l4d1server/left4dead/addons/sourcemod/logs/errors_20231004.log")
+L 10/04/2023 - 22:26:16: [SM] Exception reported: 
+==========
+Warning: You should install "Stripper:Source" to spawn objects permanently to the map: http://www.bailopan.net/stripper/#install
+==========
+
+L 10/04/2023 - 22:26:16: [SM] Blaming: l4d2_spawn_props.smx
+L 10/04/2023 - 22:26:16: [SM] Call stack trace:
+L 10/04/2023 - 22:26:16: [SM]   [0] SetFailState
+L 10/04/2023 - 22:26:16: [SM]   [1] Line 334, C:\Users\ZCE\Desktop\sourcemod-1.11.0-git6936-windows\addons\sourcemod\scripting\l4d2_spawn_props.sp.cpp::OnAllPluginsLoaded
+L 10/05/2023 - 01:00:03: Error log file session closed.
